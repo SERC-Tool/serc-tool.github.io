@@ -1,0 +1,829 @@
+form:
+  id: "Objective 12"
+  desc: "Objective 12 - EMERGENCY MEDICAL SERVICES"
+  element: form
+  point-fields:
+    - object12_1
+    - object12_2
+    - object12_3
+    - object12_4
+    - object12_5
+    - object12_6
+    - object12_7
+    - object12_8
+    - object12_9
+    - object12_10
+    - object12_11
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 1
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "EMERGENCY MEDICAL SERVICES: "
+          text:  "Demonstrate, or discuss in a tabletop exercise, the
+adequacy of procedures, facilities, and equipment to handle, treat, and transport victims
+involved in a hazardous materials incident."
+
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW  (Emergency Medical Services)'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    #-----------Question 1----------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+
+        - element: info
+          text: "Medical personnel may in fact be the first on-scene. As such, they should demonstrate that
+          they recognize the presence of hazardous materials. Personnel should not commit resources until
+          it is determined where it is safe to operate, which victims require decontamination, and what
+          protective equipment is required. "
+          children:
+            - element: label
+              text: "Were proper procedures demonstrated by EMS personnel to safely approach the scene?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "The IC should designate an EMS officer to take charge of EMS operations. The EMS officer
+          should clearly identify or be briefed on what hazards are involved. In turn, the EMS officer
+          should ensure all EMS personnel understand the hazards, where it is safe to work, and what
+          precautions should be taken while handling victims. The EMS officer will be responsible to
+          establish the medical priorities to include where to receive victims, how to separate contaminated
+          from non-contaminated people, where to stage equipment for use, and how to account for
+          medical safety on-site. This requires close coordination with the Operations and Safety officers.
+          EMS personnel should also designate a squad to directly support the Hazmat Team and/or
+          entry/decon personnel."
+          children:
+            - element: label
+              text: "Were EMS operations effectively coordinated on-site and with the command staff?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_2
+      type: text
+
+    #-------------Question 3-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "Exposed victims may or may not be contaminated. EMS will need to coordinate with Operations
+          to identify the extent of contamination for each victim. EMS personnel should also understand
+          what type of decontamination was provided. EMS personnel need to understand the likelihood
+          of a secondary exposure or contamination. EMS personnel will need to research these issues
+          using tools beyond the DOT guidebook. Tools/resources can include computer technology-based programs (i.e. Cameo), shipping papers, SDS, pre-planned hazard analyses, chemical
+          handbooks (i.e. NIOSH pocket guide, or chemical specialists (i.e. Chemtrec). Assistance can
+          also come directly from the spiller or company that uses the material, hazmat team members, or
+          from the local medical facility and/or health department."
+          children:
+            - element: label
+              text: "Were the health hazards and the secondary contamination risks posed to patients \n identified by responders?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_3
+      type: text
+
+    #-------------Question 4-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "As EMS personnel establish their medical priorities, they should determine what medical
+          assets are needed on-scene. EMS personnel shall determine what PPE are appropriate to receive,
+          handle, treat, and transport victims. They should recognize the limitations work uniforms and
+          structural fire gear provide in preventing contamination. Contamination controls may require
+          lining the interior of squads with plastic, donning Tyvex suits, or using body bags to wrap
+          victims for transport. EMS personnel may also need basic medical supplies such as additional
+          backboards to move contaminated victims. This requires EMS personnel to understand the
+          hazard, what precautions to take, and thus what resources are need to minimize the hazard. EMS
+          personnel also need to determine what equipment is or may become contaminated and thus will
+          need to secure replacement supplies."
+          children:
+            - element: label
+              text: "Were adequate medical equipment and supplies identified and/or obtained to \n support EMS operations?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_4
+      type: text
+
+    #-------------Question 5-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "Victims may or may not be recovered by EMS personnel. Rescuers/entry personnel who are
+          assisting EMS need to be briefed on how to conduct triage. They should know the likely routes
+          of entry, the signs and symptoms of exposure, and whether injuries or chemical exposure takes
+          precedence in recovery. EMS may complete the medical triage for the walking wounded who
+          have received a gross decontamination."
+          children:
+            - element: label
+              text: "Were existing/established medical triage procedures properly implemented to  \n address the contamination risk, if present?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_5
+      type: text
+
+    #-------------Question 6-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "Decontamination will be required for those exposed or contaminated. The amount and type
+          vary on the materials involved and the type/length of exposure. EMS personnel should know
+          which victims required decontamination, and what type they received before treating them.
+          Then in preparation to transport victims, EMS personnel should note whether or not the squads
+          require protection from possible secondary contamination. Techniques include using plastic
+          sheeting to line the inside of the squad or to fully wrap the victim. Personnel may want to only
+          use one or two squads to shuttle the decontaminated victims to the medical facility. This will
+          leave other vehicles clean and able to transport those who were not contaminated. As a side
+          note, EMS personnel may decide to transport victims via air ambulance. In this case, EMS
+          personnel should be aware that some carriers will not transport victims who have been
+          contaminated with either a flammable or poison. And it does not matter how extensive the
+          decontamination was. EMS personnel should be familiar with their local carrier’s restrictions
+          when determining who will be airlifted."
+          children:
+            - element: label
+              text: "Were patients decontaminated before being treated and appropriate steps taken \n to prevent exposure/secondary contamination?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_6
+      type: text
+
+    #-------------Question 7-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+
+        - element: info
+          text: "The Evaluator should note who, how, and when this notification occurred. The notification
+          may be made by on-scene personnel, through dispatch personnel, or only via EMS squads after
+          they are enroute to the facility. It should also be noted if the medical facility monitored response
+          radios to learn of the emergency. In this case, the facility could be proactive and directly contact
+          responders instead of waiting for an “official” notification. The notification should include the
+          identity of the chemical involved and an estimate of the injuries to include chemical exposures.
+          If the Medical Facility does not have adequate information about the hazards, they should
+          request it from the IC. Information should include specifics on routes of entry, length of
+          exposure, health symptoms, decontamination needs, etc. "
+          children:
+            - element: label
+              text: "Was the Medical Facility notified prior to patient arrival that a hazardous material \n incident had occurred to include information on the respective health hazards?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_7
+      type: text
+
+    #-------------Question 8-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '8.        '
+
+        - element: info
+          text: "EMS personnel should understand which facilities locally can or cannot handle victims
+          involved in a chemical incident. These facilities may include those that exist outside of the
+          County. EMS personnel should make contact with each medical facility to ensure they can
+          accept the victims or determine they should go to an alternate site. EMS personnel should brief
+          the medical facilities on what chemicals were involved, what contamination occurred, what
+          decontamination occurred, along with basic patient information. This information should be
+          provided before the patient leaves the scene. This will give medical facilities time to prepare
+          their people and equipment. EMS personnel should also confirm which entrance they should use
+          to deliver the patients to the medical facility. Some sites may require contaminated victims to
+          arrive at a specific entrance. This should be pre-planned but should be confirmed while on-scene
+          or relayed to squads while enroute. This function is sometimes handled by dispatch centers if
+          on-scene personnel request it."
+          children:
+            - element: label
+              text: "Did personnel coordinate with medical facilities to receive patients to include \n providing information on decontamination and potential walk-ins?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_8
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_8
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_8
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_8
+      type: text
+
+    #-------------Question 9-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '9.        '
+
+        - element: info
+          text: "Upon arrival, the EMS personnel should be checked for signs of exposure and possible
+          contamination. EMS personnel should request the medical facility to quickly screen them for
+          symptoms of exposure before they return to service. If symptoms are present, EMS personnel
+          should be held for treatment and observation. In this case, they need to advise the IC or the on-scene EMS Officer that they are out of service. The command system will need to take steps to
+          secure additional assets."
+          children:
+            - element: label
+              text: "Were emergency medical personnel and equipment screened for contamination \n before returning them to service or were arrangements made to secure other assets?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_9
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_9
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_9
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_9
+      type: text
+
+    #-------------Question 10-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '10.        '
+
+        - element: info
+          text: "To assist in coordinating EMS operations, the EMS liaison should document various items.
+          NFPA’s 473 standard notes that this information should include product information, extent and
+          duration of exposures, actions taken to limit contamination, treatment rendered, and patient
+          disposition. Personnel should also note what resources were contaminated and expended. This
+          documentation should help to prioritize medical needs, manage safety concerns, recover costs
+          afterwards, critique operations, and identify training needs."
+          children:
+            - element: label
+              text: "Were records kept to document resources expended and response actions taken?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_10
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_10
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_10
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_10
+      type: text
+
+    #-------------Question 11-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '11.        '
+
+        - element: info
+          text: "Overall, these actions are required to be contained in the LEPC plan. These procedures and/or guidelines may also be outlined in department SOPs."
+          children:
+            - element: label
+              text: "Were proper procedures demonstrated by EMS personnel to safely approach the scene?"
+
+        - element: row
+          children:
+            - element: field
+              name: object12_11
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_11
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object12_11
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object12_explain_11
+      type: text
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object12_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

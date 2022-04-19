@@ -1,0 +1,563 @@
+form:
+  id: "Objective 13"
+  desc: "Objective 13 - MEDICAL FACILITIES"
+  element: form
+  point-fields:
+    - object13_1
+    - object13_2
+    - object13_3
+    - object13_4
+    - object13_5
+    - object13_6
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 13
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "MEDICAL FACILITIES: "
+          text:  "Demonstrate, or discuss in a tabletop exercise, the adequacy of
+procedures, facilities, and equipment to receive and treat victims involved in a hazardous
+materials incident."
+
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW   (Hospital Services)'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    #-----------Question 1----------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+
+        - element: info
+          text: "The medical facility should have a pre-designated area where victims would be delivered and
+          should be confirmed with EMS personnel before the first patient arrives. This is done to limit
+          the chances that a critical area of the facility will be closed due to contamination. Some sites use
+          alternate entrances rather than going straight into the emergency room. Victims may arrive after
+          being decontaminated on-scene or they may arrive on their own without going through a
+          decontamination process. Medical facility personnel should be equipped to protect themselves
+          from possible exposure to any chemicals remaining on the arriving victims. Internal procedures
+          and/or guidelines may dictate that a specific level of PPE will be worn regardless of the situation.
+          Personnel should be trained on the proper manner to don and wear the PPE chosen. The medical
+          facility should also inform EMS or the IC when no more victims can be accepted at the site. "
+          children:
+            - element: label
+              text: "Were appropriate actions taken to coordinate patient arrival with the arriving \n emergency medical squads, to include equipping personnel to safely handle \n arriving patients?"
+
+        - element: row
+          children:
+            - element: field
+              name: object13_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object13_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "Once EMS personnel arrive with victims, the medical facility should have personnel in-place
+          and suited to handle and treat victims. They should be ready to decontaminate victims as
+          needed. They should evaluate EMS personnel for signs of exposure and treat them accordingly.
+          Squad members should be questioned as to how they feel and what precautions were taken when
+          handling this victim. They should have procedures and/or guidelines in-place to remove and
+          isolate contaminated clothing if needed. They should determine whether to treat the injuries
+          while wearing PPE or move the patient to other medical personnel after the patient is
+          decontaminated. Those not contaminated should be moved directly to a clean area for immediate
+          treatment."
+          children:
+            - element: label
+              text: "Were arriving patients and EMS personnel safely received, handled, and treated \n based on injuries and contamination levels?"
+
+
+        - element: row
+          children:
+            - element: field
+              name: object13_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object13_explain_2
+      type: text
+
+
+    #------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "As victims arrive, the receiving area should have a controlled access that limits the
+          possibility of contamination outside of the area. Procedures should be in-place to transfer a
+          patient from a contaminated area into a clean area. Medical personnel should not freely move
+          between each area. Control measures may include closing off access, removing or covering non-
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #13: 92
+          essential equipment, and isolating ventilation systems. Outside of the receiving and treatment
+          areas, access should be limited to only essential personnel. Security may even be needed outside
+          of the medical facility to manage the arriving squads, the general public, and possibly media
+          groups. "
+          children:
+            - element: label
+              text: "Were security measures in-place to control access to the receiving, treatment, or \n other potentially contaminated areas?"
+
+        - element: row
+          children:
+            - element: field
+              name: object13_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object13_explain_3
+      type: text
+
+
+    #-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "This process requires adequate communications with personnel on-scene. The medical
+          facility should have direct communications to the scene’s EMS personnel or the incident
+          Command Post. This may be through cellular phone, dedicated radios, or relayed via
+          dispatchers. The facility should also be proactive to request information rather than waiting for
+          the scene or individual squads to provide information. Internally, the medical facility should
+          have communications to coordinate activities if the receiving area is isolated from other
+          operations. Communications should permit the exchange of equipment and information from the
+          receiving area and the rest of the facility."
+          children:
+            - element: label
+              text: "Was the medical facility able to communicate with the Incident Command and/or \n EMS personnel?"
+
+        - element: row
+          children:
+            - element: field
+              name: object13_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object13_explain_4
+      type: text
+
+
+    #-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "A process should be used to decontaminate those personnel who treated patients and thus
+          may have been exposed to the victims. Runoff from the process should be properly contained
+          for disposal. This process should also address how to handle a patient’s personal items or EMS
+          equipment that may be contaminated. Finally, the process should confirm the area is clean
+          before it returns to normal operations."
+          children:
+            - element: label
+              text: "Were procedures and/or guidelines followed to safely contain and dispose of \n contaminated materials?"
+
+        - element: row
+          children:
+            - element: field
+              name: object13_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object13_explain_5
+      type: text
+
+
+
+    #---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "Personnel within the medical facility should take note of various actions relating to this
+          event. This may include notes on what materials were involved, which patients received
+          decontamination on-site, what types of PPE was issued, who wore the PPE and for how long,
+          and how the decontaminated wastes were managed. "
+          children:
+            - element: label
+              text: "Were records kept to document resources expended and actions taken?"
+
+        - element: row
+          children:
+            - element: field
+              name: object13_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object13_explain_6
+      type: text
+
+    #---------------Question 7-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+
+        - element: info
+          text: "The LEPC plan is required to contain the procedures used by medical facilities to support on-scene operations. These concerns may already be addressed in the medical facility’s SOPs. It is
+          also noted that OSHA requires Operations Level training for those hospital whose personnel will
+          conduct decontamination operations at the facility."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object13_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object13_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object13_explain_7
+      type: text
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object13_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

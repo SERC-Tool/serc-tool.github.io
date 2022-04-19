@@ -1,0 +1,717 @@
+form:
+  id: "Objective 10"
+  desc: "Objective 10 - TRAFFIC AND ACCESS CONTROL"
+  element: form
+  point-fields:
+    - object10_1
+    - object10_2
+    - object10_3
+    - object10_4
+    - object10_5
+    - object10_6
+    - object10_7
+    - object10_8
+    - object10_9
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 10
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "TRAFFIC AND ACCESS CONTROL: "
+          text: "Demonstrate, or discuss in a tabletop exercise, the ability to implement site security, designate evacuation routes, control traffic flow, and manage evacuation area site access."
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW (Traffic and Access Control):'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+
+      #-------------Question 1--------------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+        - element: info
+          text: "To manage the incident, the IC may coordinate traffic control for a small incident. In larger
+          events, the IC should delegate this task to a law enforcement official that has jurisdiction over
+          the area. Mutual aid departments must be briefed on who is managing this task. Also, this
+          liaison may manage the task away from the Command Post and therefore needs to routinely
+          coordinate actions with the IC. If an EOC is tasked to coordinate off-site support, the liaison
+          needs to regularly coordinate actions with them."
+          children:
+            - element: label
+              text: "Was an individual clearly identified and effectively in charge of coordinating traffic and \n access control issues?"
+
+        - element: row
+          children:
+            - element: field
+              name: object10_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Identify by Name:'
+
+    - element: field
+      name: object10_explain_1_1
+      type: text
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object10_explain_1_2
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "Response measures should permit clear access to and from the scene for response vehicles.
+          The area should also be large enough to setup a Command Post and allow movement within the
+          cold or support zone. Roadblocks, traffic cones, and barrier tape are tools often used to secure
+          the scene. Access from open fields and back alleys may need to be monitored. Also, some
+          vehicles or the general public already in the area may need to be removed. The traffic control
+          personnel and staging officials will need to work together so they know what response resources
+          are en route and are allowed access to the scene. This especially applies to those assets which
+          are not First Responders such as private cleanup contractors, state officials, or personnel arriving
+          in private vehicles. It will also require establishing access and control procedures and/or
+          guidelines for media assets who may respond to the incident. The liaison will need to work with
+          the PIO to establish a media area that permits media coverage of the incident without interfering
+          with response operations."
+          children:
+            - element: label
+              text: "Was site security effectively implemented at and around the immediate scene and \n only authorized personnel allowed access to the scene?"
+        - element: row
+          children:
+            - element: field
+              name: object10_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object10_explain_2
+      type: text
+
+
+    #------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "Responders may initially consult technical guidance, but the IC may need to revise those
+          estimates based on the incident assessment. The IC and traffic liaison will need to identify
+          traffic control points that will secure the area around the warm or contamination reduction zone.
+          The steps and resources needed to re-route traffic, especially along state or US highways, will
+          need to be clearly defined. This will likely involve posting roadblocks and establishing detours
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #10: 80
+          for the area and require the support of local transportation offices such as city road departments,
+          ODOT, or the County Engineer’s office. Rail lines may transit the impacted area and require
+          responders to notify appropriate agencies how to stop movement along a given line. As for air
+          traffic, ground personnel can restrict the airspace above an incident. Therefore, they need
+          adequate communications to manage arriving aircraft, such as life-flight or stray aircraft (media).
+          Finally, access via water may be difficult to manage. Access control may range from canoeists
+          on a small stream to large barges on a major lake or river."
+          children:
+            - element: label
+              text: "Did personnel determine where and how to control transportation around and away from the
+              incident (to include via road, rail, air, and water)?"
+
+        - element: row
+          children:
+            - element: field
+              name: object10_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object10_explain_3
+      type: text
+
+
+    #-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "This information should come from the individual assigned to traffic issues through the PIO in
+          coordination with the IC. Traffic controllers should relay any public concerns promptly to the
+          liaison that can then have the PIO address the concerns. Public information messages should
+          clearly outline traffic closings, evacuation area boundaries, and alternate traffic routings. This
+          should also include a note on the expected length of any delay. As the situation changes, the PIO
+          must ensure the public is kept informed."
+          children:
+            - element: label
+              text: "Were traffic and access control decisions disseminated to the general public and updated as the incident response changed?"
+
+        - element: row
+          children:
+            - element: field
+              name: object10_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object10_explain_4
+      type: text
+
+
+    #-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "Initial actions may be based on guidance found in the technical guidance. The traffic control
+          measures should ensure the public is kept clear of the scene to include any downwind warm or
+          contamination reduction zones. Once a protective action is implemented, personnel should
+          demonstrate how they evaluate and resolve issues as the incident progresses such as redefining
+          traffic detours and adding additional control points. Effectiveness could be measured by
+          technical applications, social media and calls into dispatch centers. The IC and traffic liaison
+          should work with Operations personnel to identify when and how traffic control measures are
+          relaxed or expanded. Weather changes may create the need to expand the evacuation area and
+          thus close additional routes. The incident may worsen and force more road closures. Any such
+          changes should be shared with personnel as the need arises."
+          children:
+            - element: label
+              text: "Did the IC and traffic controllers evaluate the effectiveness of traffic control measures
+               throughout the incident and adjust them when necessitated by the incident response?"
+
+        - element: row
+          children:
+            - element: field
+              name: object10_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object10_explain_5
+      type: text
+
+
+
+    #---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "Eventually, conditions will improve and permit a gradual return to normal operations.
+          Responders need to demonstrate how they determine that the hazard has been reduced and the
+          area is free of contamination. The Command Post should then outline how they will conclude
+          traffic control measures and pass this information along to traffic control personnel/agencies.
+          This information should also be passed along to the public and media. These actions should be
+          demonstrated before the drill ends, and not just simply stated that it was done."
+          children:
+            - element: label
+              text: "Was the decision to terminate traffic control measures coordinated among responders, \n support organizations, and to the public?"
+
+        - element: row
+          children:
+            - element: field
+              name: object10_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object10_explain_6
+      type: text
+
+
+    #-----------Question 7----------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+        - element: info
+          text: "The liaison will need to establish a clear line of communications with the various assets
+          implementing traffic control. Responders should demonstrate the use of radios and phones to
+          pass critical information among traffic control personnel/agencies. This may require that some
+          agencies (local road department, ODOT, OSHP) will have to provide a liaison to the Command
+          Post that can help identify needs, mobilize assets, and facilitate the communications to their
+          personnel. If an EOC is tasked to coordinate these off-site actions, they need to show they can
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #10: 81
+          communicate with the traffic controllers/agencies."
+          children:
+            - element: label
+              text: "Were communications between traffic controllers and the command system
+              effective to coordinate actions throughout the incident?"
+
+        - element: row
+          children:
+            - element: field
+              name: object10_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object10_explain_7
+      type: text
+
+    #-------------Question 8-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '8.        '
+
+        - element: info
+          text: "The traffic liaison should maintain a log of what traffic control actions were implemented to
+          include any concerns that occurred and how they were resolved. The logs should note what
+          routes are closed and which roads are the designated alternate routes. The logs should identify or
+          account for what assets are currently in-place to manage the traffic flow. As with other
+          documentation, these logs can be used to identify response needs, prioritize the use of assets, and
+          confirm actions were taken as planned. Afterwards, the logs will help to critique response
+          operations and should identify the costs incurred."
+          children:
+            - element: label
+              text: "Were records kept to document resources expended and actions taken?"
+        - element: row
+          children:
+            - element: field
+              name: object10_8
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_8
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_8
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object10_explain_8
+      type: text
+
+
+    #------------Question 9-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '9.        '
+
+        - element: info
+          text: "The LEPC plan is required to address transportation issues as it pertains to evacuation control, to
+          include establishing alternate traffic routes. Also, some hazard analyses identify likely traffic
+          control points for fixed facility incidents. The County EOP also addresses basic traffic control
+          issues in various Annexes, such as Law Enforcement, Evacuation, and Engineering & Public
+          Works."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object10_9
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_9
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object10_9
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object10_explain_9
+      type: text
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object10_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

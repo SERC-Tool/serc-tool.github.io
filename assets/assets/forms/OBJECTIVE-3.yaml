@@ -1,0 +1,769 @@
+form:
+  id: "Objective 3"
+  desc: "Objective 3 - INCIDENT COMMAND"
+  element: form
+  point-fields:
+    - object3_1
+    - object3_2
+    - object3_3
+    - object3_4
+    - object3_5
+    - object3_6
+    - object3_7
+    - object3_8
+    - object3_9
+    - object3_10
+
+
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 3
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "INCIDENT COMMAND: "
+          text: "Demonstrate, or discuss in a tabletop exercise, the ability to
+implement an Incident Command System and effectively direct, coordinate, and manage
+emergency response activities."
+
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW   (Incident Command)'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    #---------Question 1---------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+
+        - element: info
+          text: "Incident command begins as the first piece of equipment arrives on-scene and it expands to
+          meet the needs of the incident response. ICS positions should be assigned as the situation
+          requires (i.e. Operations, Decon, Staging, Logistics, Medical, and PIO). It should be noted that
+          OSHA requires a Safety officer be designated for every Hazmat incident. Liaisons from outside
+          agencies (i.e. law enforcement, EMA) should also be included in the command system as
+          required."
+          children:
+            - element: label
+              text: "Was an Incident Command System (ICS) clearly identified?"
+
+        - element: row
+          children:
+            - element: field
+              name: object3_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "The senior fire official who is first on-scene will become the IC. The IC will need to clearly
+          establish the response priorities and then delegate the functional responsibilities to responders.
+          Once the functions are delegated, the IC’s job is to coordinate activities and not get involved
+          with the individual “hands-on” assignments. The IC should remain within the Command Post
+          and be easily accessible to the command positions. This point also evaluates the effective
+          coordination required when a unified command system includes multiple “lead” agencies at the
+          Command Post."
+          children:
+            - element: label
+              text: "Was the Incident Commander (IC) clearly identified and in charge?"
+
+
+        - element: row
+          children:
+            - element: field
+              name: object3_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_2
+      type: text
+
+
+    #------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "The size and actual location of the Command Post will depend on the incident. Small
+          incidents may be controlled from the front seat of a vehicle while larger incidents may utilize a
+          formal command vehicle. Its location should also allow easy access for key personnel working
+          in the cold zone but remain isolated from outside distractions (media, the public). Some
+          departments use techniques such as posting green lights/flags to identify the CP. The CP must
+          be able to communicate with agencies that are both on-site and off-site. Liaisons coordinating
+          off-site activities should also be located within the CP environment."
+          children:
+            - element: label
+              text: "Was a Command Post (CP) established and clearly identified?"
+
+        - element: row
+          children:
+            - element: field
+              name: object3_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_3
+      type: text
+
+
+    #-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "Staffing the Command Post depends on the incident size and complexity. For most incidents,
+          the IC will need a liaison from the external or support agencies that are coordinating actions offsite. These liaisons typically include law enforcement for traffic control, public information
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #3: 50
+          officers for media/public relations, and possibly an EMA official for logistical support. The CP
+          staff may include the spiller so they can provide input on how to control or cleanup the release.
+          In larger incidents, the IC should have administrative support to document actions taken, manage
+          communications, and account for resources on-site."
+          children:
+            - element: label
+              text: "Was the Command Post staffed and equipped to support emergency operations?"
+
+        - element: row
+          children:
+            - element: field
+              name: object3_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_4
+      type: text
+
+
+    #-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "The IC needs to ensure personnel are in the information loop. The IC should be in regular
+          contact with command positions who in turn keep individual personnel informed. The command
+          positions will provide feedback back to the IC as to what actions are completed and what
+          additional actions or resources are needed. Significant changes (i.e. the spill worsens, all victims
+          are rescued) should be immediately shared with the IC. This will allow the IC to set new
+          response priorities or modify protective actions off-site."
+          children:
+            - element: label
+              text: "Was decision-making and information sharing coordinated with on-site personnel?"
+
+        - element: row
+          children:
+            - element: field
+              name: object3_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_5
+      type: text
+
+
+
+    #---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "Off-site agencies (i.e. medical facilities, shelters, EOC, etc.) need to receive information
+          about what actions are taking place on-scene and how they are supposed to support operations.
+          These groups may need to re-prioritize their actions (open a new shelter, establish new traffic
+          detours) and thus need information at the onset of the emergency as well as throughout the event.
+          At the same time, these agencies need to keep the IC informed of the actions completed off-site.
+          The ultimate goal is to ensure response actions are not overlooked, duplicated, or thought to be
+          still in progress. The IC may accomplish this coordination for small incidents or they can
+          delegate that task to specific liaisons or command positions."
+          children:
+            - element: label
+              text: "Was decision-making and information sharing coordinated with off-site agencies?"
+
+        - element: row
+          children:
+            - element: field
+              name: object3_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_6
+      type: text
+
+
+    #-------------Question 7----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+
+        - element: info
+          text: "Typically, county plans rely on the local EMA Director to coordinate with the IC and decide
+          where/when to activate an EOC. EMA offices may activate an EOC prior to receiving a formal
+          request to do so. In this case, the EOC should ensure the IC knows this has occurred. An EOC
+          should then coordinate off-site activities and to support the IC’s logistical needs. The IC needs to
+          demonstrate how it was decided whether or not to activate an EOC. If an EOC is not required,
+          the IC should be able to clearly explain the reasoning as to why the EOC was not needed."
+          children:
+            - element: label
+              text: "Did the command staff consider the need to activate an Emergency Operations Center?"
+
+        - element: row
+          children:
+            - element: field
+              name: object3_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_7
+      type: text
+
+
+
+    #-------------Question 8----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '8.        '
+
+        - element: info
+          text: "The IC shall limit the number of personnel at the site, especially in those areas of potential or
+          actual chemical exposure. In order to accomplish this, the IC should have a system in-place that
+          identifies who has been assigned to work in which areas. Also, the IC should use this system to
+          identify when to obtain additional or replacement personnel (EMS squads, traffic controllers)
+          and equipment (absorbents, SCBA). The system should also show when a given asset was
+          released from service on-site."
+          children:
+            - element: label
+              text: "Was a system implemented to track personnel and resources on-site?"
+
+        - element: row
+          children:
+            - element: field
+              name: object3_8
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_8
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_8
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_8
+      type: text
+
+
+
+    #-------------Question 9----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '9.        '
+
+        - element: info
+          text: "A running record of key actions taken and decisions made should be maintained. This task
+          may be accomplished in the Command Post or by each functional commander (Safety,
+          Operations, etc.). These notes can be used to see that tasks are completed and not overlooked, or
+          to re-define response needs. They can be used to see that required calls were made or that
+          needed assets were mobilized. As the incident comes to a close, the command personnel can use
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #3: 51
+          the notes to address issues such as cost recovery, equipment accountability or replacement, and
+          accident investigation."
+          children:
+            - element: label
+              text: "Were records kept to document the response actions taken?"
+
+        - element: row
+          children:
+            - element: field
+              name: object3_9
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_9
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_9
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_9
+      type: text
+
+    #-------------Question 10----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '10.        '
+
+        - element: info
+          text: "The LEPC plan is required to address these concerns. Further, NFPA’s 471, 472, and 473,
+          1500 and 1600 standards discuss the merits of an incident command system and how it should be
+          applied locally. Meanwhile, local departments should have already completed incident
+          command training as per OSHA. Also, individual departments should have addressed these
+          Points in their own SOPs or in a common system used by all departments in the county."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object3_10
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_10
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object3_10
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object3_explain_10
+      type: text
+
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object3_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

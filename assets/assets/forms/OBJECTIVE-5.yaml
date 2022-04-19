@@ -1,0 +1,568 @@
+form:
+  id: "Objective 5"
+  desc: "Objective 5 - RESOURCE MANAGEMENT"
+  element: form
+  point-fields:
+    - object5_1
+    - object5_2
+    - object5_3
+    - object5_4
+    - object5_5
+    - object5_6
+    - object5_7
+
+
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 5
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "RESOURCE MANAGEMENT: "
+          text: "Demonstrate, or discuss in a tabletop exercise, the ability to identify, mobilize, and manage resources required for emergency operations."
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW (Resource Management)'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    #---------Question 1---------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+
+        - element: info
+          text: "Communities should have pre-identified what specific types of resources are likely to be
+          needed during a chemical release and should have identified whether these resources are
+          available locally or must be brought from outside sources. Those in charge should be familiar
+          with what assistance is in-place locally and can be quickly mobilized. "
+          children:
+            - element: label
+              text: "Was the ICS/EOC staff knowledgeable of available resources and existing mutual aid agreements?"
+
+        - element: row
+          children:
+            - element: field
+              name: object5_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object5_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "As personnel complete the initial scene assessment and develop an action plan, they will
+          identify what assets will be needed at the onset of the emergency. On-scene responders may not
+          remember where every asset is or how to obtain unique resources. The IC’s staff, local EMA, or
+          an activated EOC should consult the department, city, or county resource lists to identify and
+          obtain needed assets (i.e. containment or absorbent supplies, specialty teams, specialized
+          equipment). If these lists are not on-scene, they should be readily available to response
+          personnel (i.e. via dispatchers, in the EOC, at an agency office). If they are uncertain of what
+          assets are needed, personnel should consult with the spiller. Personnel may also contact state
+          agencies (i.e. OEPA, PUCO), federal agencies (i.e. NRC), or private contacts (i.e. CHEMTREC)
+          to obtain critical assets. Many EMA offices will maintain a listing of such resources."
+          children:
+            - element: label
+              text: "Were resource lists readily available and did ICP/EOC staff obtain accurate information on  \n resource availability?"
+
+
+        - element: row
+          children:
+            - element: field
+              name: object5_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object5_explain_2
+      type: text
+
+
+    #------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "This is not the function taken at the end of an emergency to replace used assets/cost recovery.
+          This is the function that occurs during an emergency as key resources are quickly used and must
+          be replaced. Such resources would include, but are not limited to, special tools like absorbents,
+          gloves, diking materials, and may also include generic resources such as backboards, medical
+          supplies, and SCBAs. This may even include the need to replace personnel. Command
+          personnel should identify the need to replace an asset before the resource is exhausted and
+          should demonstrate how to obtain the additional assets. This may even include the need to
+          coordinate for the payment of the additional assets."
+          children:
+            - element: label
+              text: "Were actions taken to identify and obtain additional/replacement resources?"
+
+        - element: row
+          children:
+            - element: field
+              name: object5_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object5_explain_3
+      type: text
+
+
+    #-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "If the spiller is known, the IC should prompt the spiller to initiate the recovery of the area and
+          arrange for specialists to remediate the impacted areas. The IC should also consult with state
+          officials such as OEPA, PUCO, ODNR, or ODH to identify if they have a need to implement
+          unique cleanup measures and thus necessitate activation of specialized cleanup resources. The
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #5: 58
+          IC should not release the scene until certain that the cleanup resources on-scene can/will
+          complete the remediation process. In the cases where a spiller is not known, the IC will need to
+          coordinate for the cleanup and remediation with applicable State assets and identify what
+          resources will be needed to recover the scene."
+          children:
+            - element: label
+              text: "Were cleanup/disposal actions coordinated with spiller?"
+
+        - element: row
+          children:
+            - element: field
+              name: object5_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object5_explain_4
+      type: text
+
+
+    #-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "Once a resource is on-scene, the various command personnel should have a system in-place
+          that identifies where each asset is assigned to work. This system should be used to indicate at
+          what point local assets will be exhausted and thus create the need to secure additional resources.
+          The same system should also show when a given resource was released from service or the
+          scene. The system may also identify when a resource is damaged or destroyed on the scene and
+          must be replaced following the emergency. Overall, this system should track personnel as well
+          as key/major pieces of equipment (i.e. equipment trailers, fire apparatus, etc.)."
+          children:
+            - element: label
+              text: "Did the ICP/EOC staff effectively track resources in use?"
+
+        - element: row
+          children:
+            - element: field
+              name: object5_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object5_explain_5
+      type: text
+
+
+
+    #---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "The cost of response will typically be the responsibility of the spiller, but it can also be the
+          community’s own responsibility. This documentation should track personnel and equipment
+          costs, as well as contracted/rental costs for outside resources. Therefore, command personnel
+          must ensure they have accurate records to show what resources were utilized. The
+          documentation should show which assets were expended on-scene and must be replaced.
+          Documentation after-the-fact may overlook certain costs, and it may be impossible to recover
+          costs if records were not maintained."
+          children:
+            - element: label
+              text: "Were records kept to document resources utilized for posterity and in support of the cost \n recovery effort?"
+
+        - element: row
+          children:
+            - element: field
+              name: object5_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object5_explain_6
+      type: text
+
+
+    #-------------Question 7----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+
+        - element: info
+          text: "The LEPC plan is required to contain a composite statement of specialized equipment that is
+          available within the County for chemical incidents. The plan should explain how assets are
+          mobilized and how to secure resources that are not present in the county. Meanwhile, other
+          agencies and departments may maintain their own resource lists and may have a SOP to activate
+          those resources. Also, each County EOP typically has a chapter dedicated to Resource
+          Management as well as Tabs that identify available resources. Those plans should be consulted
+          for more information on resource management."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object5_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object5_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object5_explain_7
+      type: text
+
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object5_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

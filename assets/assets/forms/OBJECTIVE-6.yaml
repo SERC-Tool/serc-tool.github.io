@@ -1,0 +1,501 @@
+form:
+  id: "Objective 6"
+  desc: "Objective 6 - COMMUNICATIONS"
+  element: form
+  point-fields:
+    - object6_1
+    - object6_2
+    - object6_3
+    - object6_4
+    - object6_5
+    - object6_6
+
+
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 6
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "COMMUNICATIONS: "
+          text: "Demonstrate, or discuss in a tabletop exercise, the ability to
+effectively establish and maintain communications among all appropriate response locations,
+organizations, and personnel."
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW (Notification)'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    #---------Question 1---------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+
+        - element: info
+          text: "This should determine if each group was properly included into the response system via
+          communications. It should identify if the on-scene communications allowed each group (fire,
+          EMS, law, mutual aid) to communicate with each other or not. This should include outside
+          groups such as state agencies, private contractors, and/or the spiller. It should note that off-site
+          agencies (medical facilities, traffic controllers, shelters) were alerted and that a line of
+          communications was promptly established or not. This should determine if the IC and the EOC
+          could communicate with each other in an effective manner."
+          children:
+            - element: label
+              text: "Were response and support organizations able to effectively communicate with each other?"
+
+        - element: row
+          children:
+            - element: field
+              name: object6_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object6_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "This should identify if personnel properly used the equipment they had to share information.
+          Initially, this looks at how dispatch centers facilitate the communications process and provide
+          first response information. On-scene, the IC is the focal point and thus must establish a
+          communications protocol. This means that individuals know who to contact and that side or long
+          conversations are avoided. Personnel understand who is responsible to coordinate with off-site
+          groups so those two groups are not making the same call. Also, off-site groups should know
+          whom to call on-site for questions. This should identify if messages are relayed verbatim or were
+          they modified or interpreted by the receiver. Finally, updates of the incident should be made in a
+          timely manner and should go to all involved groups."
+          children:
+            - element: label
+              text: "Were communications effectively utilized to gather and disseminate information about the \n incident?"
+
+
+        - element: row
+          children:
+            - element: field
+              name: object6_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object6_explain_2
+      type: text
+
+
+    #------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "This should identify if the existing equipment supported or hindered operations. The CP
+          must determine what frequencies should be used, whether it is a tactical frequency, a common
+          channel, or a combination of channels. An EOC should have an adequate number of phone lines
+          and ensure response groups bring their own radio support. Personnel should identify what
+          technique (phone, radio, or relay through dispatch) will be used to contact and inform off-site
+          agencies. This should note how personnel overcame communications problems. Personnel
+          should be able to identify where an equipment incompatibility exists (i.e. high band vs. low-
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #6: 62
+          band). They should have a plan to provide or share compatible equipment. They may have to
+          mobilize alternate or back-up communications (i.e. amateur radio, mutual aid with a cellular
+          phone provider). Other problems include poor radio/phone coverage due to location, failing
+          phone batteries, or overloaded dispatch centers. Whoever discovers the problem (i.e. dispatch,
+          off-site, CP, EOC) should work to create a solution to the problem."
+          children:
+            - element: label
+              text: "Were the existing communication links able to handle all necessary traffic?"
+
+        - element: row
+          children:
+            - element: field
+              name: object6_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object6_explain_3
+      type: text
+
+
+    #-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "This should note how personnel overcame communications problems. Personnel should be
+          able to identify where an equipment incompatibility exists. They should have a plan to provide
+          or share compatible equipment. They may have to mobilize alternate or back-up
+          communications (i.e. amateur radio, mutual aid with a cellular phone provider). Sometimes
+          face-to-face communications or hand signals can overcome an equipment/personnel
+          incompatibility."
+          children:
+            - element: label
+              text: "Did personnel take appropriate steps to alleviate the communications problems?"
+
+        - element: row
+          children:
+            - element: field
+              name: object6_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object6_explain_4
+      type: text
+
+
+    #-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "To assist in managing communications, the command staff should be monitoring
+          transmissions and documenting these conversations. Not every radio or phone conversation
+          needs to be recorded; staff should only note key events. This documentation will show when
+          certain calls were made (i.e. to the spiller, OEPA, media). It should be noted that some groups
+          rely on local dispatch centers to track messages. But, these sites may not be able to record every
+          message and they cannot be easily replayed or reviewed by on-scene personnel. "
+          children:
+            - element: label
+              text: "Were records kept to document the key communication activities?"
+
+        - element: row
+          children:
+            - element: field
+              name: object6_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object6_explain_5
+      type: text
+
+
+
+    #---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "The LEPC’s plan must contain procedures and/or guidelines for a reliable and effective
+          communications system between emergency response groups and to the public. Also, many
+          response agencies have their own communications protocols. These procedures and the lessons
+          learned from past incidents should ensure groups effectively communicate among one another."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object6_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object6_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object6_explain_6
+      type: text
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object6_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

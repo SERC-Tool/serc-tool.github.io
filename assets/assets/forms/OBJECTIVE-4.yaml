@@ -1,0 +1,720 @@
+form:
+  id: "Objective 4"
+  desc: "Objective 4 - EMERGENCY OPERATIONS CENTER"
+  element: form
+  point-fields:
+    - object4_1
+    - object4_2
+    - object4_3
+    - object4_4
+    - object4_5
+    - object4_6
+    - object4_7
+    - object4_8
+    - object4_9
+
+
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 4
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "EMERGENCY OPERATIONS CENTER: "
+          text: "Demonstrate the ability to utilize an Emergency
+Operation Center (EOC) to coordinate and support emergency response activities."
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW (Emergency Operation Center)'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    #---------Question 1---------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+
+        - element: info
+          text: "Each county’s local Plan should identify who activates and who staffs the EOC, what
+          equipment is available and setup, and how the EOC is to be operated. Some plans require the
+          full-activation of an EOC regardless of the incident. Some plans establish varying levels of
+          activation and staffing based on the type and size of the incident. In any case, the EOC should
+          be staffed with those agencies that can coordinate actions for the IC(s) and off-site agencies.
+          This includes but is not limited to response agencies, human service groups, utility services,
+          voluntary organizations, and elected officials."
+          children:
+            - element: label
+              text: "Were planned procedures and/or guidelines followed for activating the EOC?"
+
+        - element: row
+          children:
+            - element: field
+              name: object4_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Time established:'
+
+    - element: field
+      name: object4_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "EOC locations need to be pre-planned. Typically, counties have one primary EOC and may
+          have one or more alternate sites. Again, this function may be a mobile or virtual concept."
+          children:
+            - element: label
+              text: "Was the activated EOC identified in the plan?"
+
+
+        - element: row
+          children:
+            - element: field
+              name: object4_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: row
+      alignment: start
+      children:
+      - element: field
+        name: object4_2_2
+        type: radio_checkbox
+        value: primary
+      - element: label
+        wrapper: none
+        text: "Primary"
+      - element: spacer
+        type: horizontal
+        space: 20
+      - element: field
+        name: object4_2_2
+        type: radio_checkbox
+        value: alternate
+      - element: label
+        wrapper: none
+        text: "Alternate"
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object4_explain_2
+      type: text
+
+
+    #------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "Once activated, the county EMA office is typically responsible to operate and coordinate the
+          actions within the EOC. However, partners from other disciplines, or jurisdictions, may act as
+          the EOC Manager as is operationally necessary. Per local plans, this is usually done in
+          conjunction with the EOC’s “executive group” or the chief elected officials for the affected area."
+          children:
+            - element: label
+              text: "Was an individual clearly identified and effectively in charge of the EOC?"
+
+        - element: row
+          children:
+            - element: field
+              name: object4_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Identify by name:'
+
+    - element: field
+      name: object4_explain_3
+      type: text
+
+
+    #-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "This is one of the EOC’s essential functions. In order to coordinate decision-making, the
+          EOC must establish and maintain communications with the field and support agencies. For
+          example, EOC members must have direct communications with their respective agencies in the
+          field. The primary EOC must have dedicated telephones and radios in place. Alternate EOC
+          should have some equipment in-place, but responders may have to bring portable
+          communications gear to the site in order to make it operational. This may include positioning a
+          communications van at the alternate site or arrange with private vendors to supply temporary
+          equipment. An EOC may also rely on dispatch centers or amateur radio groups to serve as the
+          communications link between the scene and the EOC."
+          children:
+            - element: label
+              text: "Were communications established between the EOC and the incident site(s)?"
+
+        - element: row
+          children:
+            - element: field
+              name: object4_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object4_explain_4
+      type: text
+
+
+    #-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "This is an essential function of the EOC. The incident commander(s) will establish the
+          response priorities and notify the EOC for support as needed. EOC members should address and
+          organize that support in a prompt manner. If no input is received from the field, EOC members
+          may need to query the IC or one of the field liaisons to identify what support is needed. EOC
+          members should also try to anticipate what resource needs or response problems may arise. In
+          turn, they should discuss those concerns with the CP to see if those issues have been or should be
+          considered."
+          children:
+            - element: label
+              text: "Was decision-making and information sharing effectively coordinated between the EOC and the \n incident commander(s)?"
+
+        - element: row
+          children:
+            - element: field
+              name: object4_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object4_explain_5
+      type: text
+
+
+
+    #---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "These are essential tools of an EOC. The EOC should have copies of local plans and
+          procedures readily available, or the individual agencies may bring their own. Some plans
+          contain forms used only in a disaster such as emergency proclamations, sample emergency alert
+          messages, or damage assessment forms. Also, EOC members may use these plans to review
+          procedures and thus anticipate response needs. The EOC should also have access to various
+          technical guides. These guides may include computerized programs, chemical handbooks
+          (NAERG, SDS), facility reports/plans, resource databases, county/city/utility service maps, etc.
+          These tools help determine how to best implement or resolve a response issue."
+          children:
+            - element: label
+              text: "Were copies of local plans, SOPs, and/or technical guidance readily available at this location and \n reviewed (when needed) in support of EOC operations?"
+
+        - element: row
+          children:
+            - element: field
+              name: object4_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object4_explain_6
+      type: text
+
+
+    #-------------Question 7----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+
+        - element: info
+          text: "To support operations, the EOC must be equipped to carry out its essential functions. The
+          EOC must have sufficient tables, chairs, and workspace available so as to establish an organized
+          work environment. It must have administrative tools such as paper tablets, pens and pencils,
+          staplers, etc. Dry-erase, chalk, or cork boards need to be available along the walls to allow
+          personnel to display critical information. EOC staff should have pre-scripted forms to document
+          and track essential information. Ideally, the EOC can be equipped with a network/connectivity
+          that allows members to electronically document, print, send, receive, post and monitor incident
+          related information. The technology in the EOC should support these functions. Alternate power
+          and lighting should also be available at the EOC. These are essential tools for an EOC."
+          children:
+            - element: label
+              text: "Did the EOC, its equipment and displays, support operations?"
+
+        - element: row
+          children:
+            - element: field
+              name: object4_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object4_explain_7
+      type: text
+
+
+
+    #-------------Question 8----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '8.        '
+
+        - element: info
+          text: "Each EOC member should maintain a log of actions taken, communications made, and issues
+          resolved. This working ledger will help ensure response issues are being addressed or will act as
+          a reminder as to what actions still must be accomplished. Also, the EOC Controller should have
+          a way to show what key events have occurred. This can be shown on one main status board or
+          by sharing the individual event logs. After the incident, this documentation can be used to
+          critique EOC operations and in turn improve its operational procedures."
+          children:
+            - element: label
+              text: "Were records kept to document the actions taken within the EOC?"
+
+        - element: row
+          children:
+            - element: field
+              name: object4_8
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_8
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_8
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object4_explain_8
+      type: text
+
+
+
+    #-------------Question 9----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '9.        '
+
+        - element: info
+          text: "The LEPC’s plan is required to address the procedures and/or guidelines to open, staff, equip
+          and operate an EOC. These procedures and/or guidelines may be located in the County EOP. The
+          LEPC plan shall clarify how and when an EOC is utilized for chemical incident. It is recognized
+          that the majority of chemical incidents will not require an EOC’s activation. But when the event
+          is widespread or occurs along with another emergency (flood, tornado, terrorist act), an EOC will
+          be useful."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object4_9
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_9
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object4_9
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object4_explain_9
+      type: text
+
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object4_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

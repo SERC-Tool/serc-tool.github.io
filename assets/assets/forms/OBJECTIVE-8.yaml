@@ -1,0 +1,758 @@
+form:
+  id: "Objective 8"
+  desc: "Objective 8 - POPULATION PROTECTIVE ACTIONS"
+  element: form
+  point-fields:
+    - object8_1
+    - object8_2
+    - object8_3
+    - object8_4
+    - object8_5
+    - object8_6
+    - object8_7
+    - object8_8
+    - object8_9
+    - object8_10
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 8
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "POPULATION PROTECTIVE ACTIONS: "
+          text: "Demonstrate, or discuss in tabletop exercise, the ability to identify and implement appropriate protective actions based upon projected risks
+posed to the public."
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW (Population Protective Actions):'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+
+      #-------------Question 1--------------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+        - element: info
+          text: "Responders need to clearly identify how the released materials will impact the surrounding
+          area. They should identify the risks posed to both the public and the environment. They should
+          consider how the release impacts a congested urban or residential area as well as the impact to a
+          park or farmer’s field. Personnel should determine if it may poison crops, kill wildlife, or
+          contaminate well water. They should determine how the topography (rolling hills, open fields)
+          affects the movement or impact of the released materials. They should identify if the material
+          will collect in low-lying areas (heavy gases such as propane). Also, responders should determine
+          how long this impact would last. It may last for days, it may disperse quickly, or it may exist
+          until it has been physically removed."
+          children:
+            - element: label
+              text: "Did personnel determine how and which geographical areas could be at risk?"
+
+        - element: row
+          children:
+            - element: field
+              name: object8_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "Based on hazards and the surrounding area, responders must then decide what actions will
+          best protect the public and environment. Responders can evacuate the area, or have people
+          shelter in-place, or use a combination of these actions. Responders should also consider the
+          impact that the time of day and season has on the protective action. There may not be enough
+          time to evacuate. To shelter in-place during the cold of winter or heat of summer may create a
+          greater hazard. They should also determine if this is going to be a short-term incident or if it
+          requires a long-term isolation and subsequent restoration of the area."
+          children:
+            - element: label
+              text: "Was an appropriate protective action decision made based on the risks posed and the \n area to be impacted?"
+        - element: row
+          children:
+            - element: field
+              name: object8_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_2
+      type: text
+
+
+    #------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "Once the protective action is chosen, its effectiveness will be influenced by how fast
+          responders can safely implement and coordinate the action. If evacuating, responders may be
+          exposed to a hazard and thus may need to don PPE and this will delay the response. Also, there
+          may not be enough trained personnel to accomplish the task and additional agencies will need to
+          be mobilized to help implement the action. Local law enforcement personnel may be enough to
+          go door-to-door, but may need support from other agencies to establish roadblocks. Also, the
+          shelter lead will require advance notification so they have time to mobilize personnel if a shelter
+          is needed. In the meantime, local responders will need to care for the evacuated public or advise
+          them where to go for assistance. The IC may even delegate the oversight of these actions to an
+          activated EOC and thus allow the IC to stay focused on containing the release."
+          children:
+            - element: label
+              text: "Were protective actions implemented in a timely manner and effectively coordinated \n among organizations?"
+
+        - element: row
+          children:
+            - element: field
+              name: object8_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_3
+      type: text
+
+
+    #-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "Part of any protective action is the need to promptly alert the public via the media.
+          Responders may initially rely on door-to-door notifications but the process will also likely
+          include using local media assets to broadcast warnings."
+          children:
+            - element: label
+              text: " Were media alert/notifications implemented in a timely manner?"
+
+        - element: row
+          children:
+            - element: field
+              name: object8_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_4
+      type: text
+
+
+    #-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "Media techniques include the use of cable television alerts, live radio/TV broadcasts, or the
+          activation of the EAS, social media outlets and mass notification systems (ie: IPAWS).
+          Regardless of the tool used, responders will need to insure the message provided is clear,
+          concise, and understandable to the common person. Some typical points that should be made
+          include, but are not limited to, what routes are and are not to be used. Or, it may include
+          instructions on caring for pets, assisting elderly or disabled, or having proper medications on-hand. Responders also need to remember that the general public may not understand why or
+          how to implement the action. Therefore, the information must clearly instruct the public on how
+          to implement the protective action."
+          children:
+            - element: label
+              text: "Was the content of instructions appropriate to the protective action made?"
+
+        - element: row
+          children:
+            - element: field
+              name: object8_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_5
+      type: text
+
+
+
+    #---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "Responders must identify what procedures and resources they will need to have in order to
+          alert and protect special populations. A special population is one that needs special assistance to
+          receive and implement the protective action. It may include people with disadvantages such as
+          elderly or disabled. This may include populated areas such as schools, shopping centers, prisons,
+          or medical facilities. It may also include vacation areas such as campgrounds, or special events
+          such as county fairs and high school football games. Finally, this may include those with
+          cultural differences such as migrant workers who speak a foreign language or groups difficult to
+          contact like the Amish/Mennonites."
+          children:
+            - element: label
+              text: "Did response personnel take appropriate steps to address access and functional needs \n groups and special populations?"
+
+        - element: row
+          children:
+            - element: field
+              name: object8_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_6
+      type: text
+
+
+    #-----------Question 7----------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+        - element: info
+          text: "As the incident progresses, responders must continuously assess how the public and
+          environment are impacted by changes in the incident status. Responders should relax or expand
+          the protective actions as required. Changes in wind direction will move an airborne toxic. Rains
+          may spread a contaminant or create a new danger if the material is water-reactive. As the
+          materials are absorbed or the leak is plugged, the actual threat is diminished. Responders need a
+          method to determine these changes and then implement a process to alert the public and support
+          agencies implementing the protective actions."
+          children:
+            - element: label
+              text: "Were proper methods followed to assess/monitor hazards to the general public and \n environment, and were the protective actions updated as required by changes?"
+
+        - element: row
+          children:
+            - element: field
+              name: object8_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_7
+      type: text
+
+    #-------------Question 8-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '8.        '
+
+        - element: info
+          text: "Responders ultimately need to show how they determine the surrounding area is safe and can
+          be returned to its normal use. This may be through the use of air monitors to show an airborne
+          toxic or flammable gas has dispersed, or that the liquid has been diked and/or absorbed.
+          Responders then need to show what procedures, personnel, and resources are used to return
+          people home in an organized manner. This includes developing public information messages,
+          going back door-to-door, closing shelters, briefing the media, etc."
+          children:
+            - element: label
+              text: "Was the process to return evacuees to their homes effectively coordinated between traffic \n controllers, shelter managers, and the command system?"
+        - element: row
+          children:
+            - element: field
+              name: object8_8
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_8
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_8
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_8
+      type: text
+
+
+    #------------Question 9-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '9.        '
+
+        - element: info
+          text: "Command staff should have noted what protective action was implemented and how it was
+          concluded. They should note any unique concerns or actions that occurred in regards to the
+          protective action. For example, noting that some people along a given street did not want to
+          evacuate. Documentation is used to ensure actions have been implemented or to identify what
+          additional actions may still be needed. After the event, the documentation will be used to
+          improve procedures and/or guidelines, or to resolve a liability issue."
+          children:
+            - element: label
+              text: "Were records kept of protective action decisions made, instructions issued, and actions \n Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #8: \n 73 implemented?"
+
+        - element: row
+          children:
+            - element: field
+              name: object8_9
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_9
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_9
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_9
+      type: text
+
+
+    #-----------Question 10--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '10.        '
+
+        - element: info
+          text: "The LEPC plan must contain evacuation procedures to include measures taken to establish
+          alternate traffic routes. The plan must also include procedures to communicate with the public in
+          a timely and effective manner. Plus, the hazard analysis section should identify what geographic
+          areas will likely be impacted by a release (i.e. at/around EHS Facilities, along transportation
+          corridors, etc.)."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object8_10
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_10
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object8_10
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object8_explain_10
+      type: text
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object10_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

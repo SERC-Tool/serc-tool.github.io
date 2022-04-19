@@ -1,0 +1,775 @@
+form:
+  id: "Objective 2"
+  desc: "Objective 2 - INCIDENT ASSESSMENT"
+  element: form
+  point-fields:
+    - object2_1
+    - object2_2
+    - object2_3
+    - object2_4
+    - object2_5
+    - object2_6
+    - object2_7
+    - object2_8
+    - object2_9
+    - object2_10
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 2
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "INCIDENT ASSESSMENT: "
+          text: "Demonstrate, or discuss in a tabletop exercise, the ability to
+identify the hazardous material(s) involved in the incident and to assess the associated health
+and physical hazards."
+
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW   (Incident Assessment)'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+#---------Question 1---------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+
+        - element: info
+          text: "When initially notified of a chemical release, personnel must make their approach safely and
+          avoid pulling up next to the incident. Typically, approach is uphill and upwind, or as identified
+          in local procedures and/or guidelines. If the initial call does not include the mention of
+          hazardous materials, personnel need to recognize the hazards and move to a safe location."
+          children:
+            - element: label
+              text: "Did response personnel safely approach the incident scene?"
+
+        - element: row
+          children:
+            - element: field
+              name: object2_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "Once on-scene, First Responders need to identify the scope and nature of the hazards involved.
+          This should include identifying/gathering the following information: \n
+          ● Type of container or package involved \n
+          ● Extent of damage to the container \n
+          ● Use placards or labels to identify materials \n
+          ● Physical state of materials (gas, liquid, solid/powder) \n
+          ● Quantity of materials being released or likely to be released \n
+          ● Materials involved or exposed to other hazards (fire, other chemicals) \n
+          ● Shipping Papers, Manifests, Bills of Lading, Waybills, etc."
+          children:
+            - element: label
+              text: "Were proper steps taken to safely obtain information about the material(s) involved before
+committing resources and beginning response operations?"
+
+
+        - element: row
+          children:
+            - element: field
+              name: object2_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_2
+      type: text
+
+
+    #------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "Response personnel are initially trained in and need to show their ability to use USDOT’s
+          North American Emergency Response Guidebook (NAERG). However, the NAERG provides
+          only initial guidance and should be supplemented by more technical guidance. This technical
+          assistance can come from any number of sources such as technology-based programs (i.e.
+          Cameo), shipping papers, SDS, pre-planned hazard analyses, chemical handbooks (i.e. NIOSH
+          pocket guide, or chemical specialists (i.e. Chemtrec). Assistance can also come directly from the
+          spiller or company that uses the material, or from the local medical facility and/or health
+          department."
+          children:
+            - element: label
+              text: "Did personnel consult proper technical guidance/resources to obtain relevant information
+about the hazards involved?"
+
+        - element: row
+          children:
+            - element: field
+              name: object2_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_3
+      type: text
+
+
+    #-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "Movement of the material and its physical/health hazards will dictate what impact is posed.
+          If the material is a gas or gives off a gas as it evaporates, the gas may be toxic or may displace
+          oxygen. It might be flammable or explosive. Responders should note how far a gas may move
+          downwind and determine what locations may be at risk. Solids or liquids may not travel far but
+          can pose an absorption and ingestion hazard if they come in direct contact with personnel.
+          Responders should also consider the impact to the environment such as how it may contaminate
+          nearby water sources or threaten animal and vegetation life"
+          children:
+            - element: label
+              text: "Did personnel identify the potential movement and impact posed by the released materials
+on-site and to adjacent areas?"
+        - element: row
+          children:
+            - element: field
+              name: object2_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_4
+      type: text
+
+
+    #-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "Before committing any resource or taking a response action, responders must determine what
+          actions they can safely implement. The assessment should identify the most prudent means of
+          managing the release based upon training and equipment. Responders must identify what
+          resources (such as PPE, absorbents, and neutralizing materials) are necessary to implement the
+          necessary response actions. This may include such decisions as determining what can/will be
+          done until the identified resources arrive on scene. Will the response actions be offensive or
+          defensive in nature? Offensive actions might require that a remote valve be accessed and turned
+          off. Conversely, it might be determined that the safest course of action is to let the material
+          dissipate or burn off. Defensive actions might require the use of Operations-Level Responders
+          who are trained to control the spread of the material (dikes, vapor suppression, etc.). Technician
+          Level Responders are trained to implement defensive actions aimed at stopping the release of the
+          material (plugs, patches, repairing valves, over-packing a drum, etc.). Review NFPA’s 471, 472,
+          and 473 for more guidance on response actions and associated training competencies."
+          children:
+            - element: label
+              text: "Did personnel use the assessment to identify proper response actions to be taken?"
+
+        - element: row
+          children:
+            - element: field
+              name: object2_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_5
+      type: text
+
+
+
+    #---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "The likely protective actions include evacuation, or sheltering-in-place, or a combination of
+          the two. Responders need to consider the benefits and limitations of each method in order to
+          identify which technique will best minimize the hazard’s effect. A toxic cloud may disperse
+          before an evacuation can be organized, or it may linger and thus expose each person as they
+          evacuate. Sheltering-in-place may have people trapped in their homes with no heat or air
+          conditioning thus creating other medical emergencies."
+          children:
+            - element: label
+              text: "Was consideration given to the development of protective actions for the public and the
+environment based on incident assessment?"
+
+        - element: row
+          children:
+            - element: field
+              name: object2_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_6
+      type: text
+
+
+#-------------Question 7----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+
+        - element: info
+          text: "Personnel on-site and off-site need to know what hazards are present. On-site, the IC or
+          Safety Officer must brief personnel on the signs of exposure, the wearing of protective
+          equipment, and the short and long-term health effects. Off-site, medical facilities will need this
+          information so they can protect their personnel and equipment. Shelter Managers will also need
+          this information to screen evacuees for signs of exposure and to prevent contamination of the
+          shelter."
+          children:
+            - element: label
+              text: "Was the incident assessment transmitted in a timely manner to other response personnel and
+support groups?"
+
+        - element: row
+          children:
+            - element: field
+              name: object2_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_7
+      type: text
+
+
+
+#-------------Question 8----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '8.        '
+
+        - element: info
+          text: "The hazards posed will change as the incident progresses. As such, the IC or Safety Officer
+          must show how they will identify when/if significant changes occur in the hazards posed.
+          Personnel with Operations-level training should be able to demonstrate the effectiveness of the
+          defensive actions in-place and whether or not it is more prudent to withdraw further from the
+          scene. HM Technicians, if available, should demonstrate the ability to estimate the likely size of
+          the endangered area using computer modeling or monitoring equipment. They should also be
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #2: 47
+          able to predict the likely behavior of the materials when they mix. If local assets cannot fully
+          monitor the situation, they should be able to consult with technical experts such as those
+          provided by the spiller, via OEPA’s OSC, or other specialists. This assistance should be pre-planned for the hazards in the community. Meters can be utilized to continually assess the
+          incident."
+          children:
+            - element: label
+              text: "Were proper strategies/tactics used to continuously assess and monitor the hazards?"
+
+        - element: row
+          children:
+            - element: field
+              name: object2_8
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_8
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_8
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_8
+      type: text
+
+
+
+#-------------Question 9----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '9.        '
+
+        - element: info
+          text: "As changes are identified, groups on and off-site supporting the response must be briefed. The
+          changes may be either an escalation or de-escalation of the hazard, or may be a change in the
+          protective actions. Most often, off-site entities (medical facilities, traffic and access control
+          points, shelters) are not kept informed of the changes."
+          children:
+            - element: label
+              text: "Were changes in the incident assessment transmitted in a timely manner to other response
+personnel and support groups?"
+
+        - element: row
+          children:
+            - element: field
+              name: object2_9
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_9
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_9
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_9
+      type: text
+
+#-------------Question 10----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '10.        '
+        - element: info
+          text: "By law, LEPC plans shall contain the methods and procedures to implement this process. Also,
+          some response agencies may have outlined this process in their own SOPs."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object2_10
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_10
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object2_10
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object2_explain_10
+      type: text
+
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object2_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

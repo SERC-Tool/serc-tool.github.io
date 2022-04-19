@@ -1,0 +1,810 @@
+form:
+  id: "Objective 11"
+  desc: "Objective 11 - SHELTER MANAGEMENT"
+  element: form
+  point-fields:
+    - object11_1
+    - object11_2
+    - object11_3
+    - object11_4
+    - object11_5
+    - object11_6
+    - object11_7
+    - object11_8
+    - object11_9
+    - object11_10
+    - object11_11
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 11
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "SHELTER MANAGEMENT: "
+          text:  "Demonstrate, or discuss in a tabletop exercise, the adequacy
+of procedures, facilities, equipment, and services to provide for the anticipated protective
+action and sheltering needs of evacuees."
+
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW   (Shelter Management)'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    #-----------Question 1----------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+
+        - element: info
+          text: "When it is decided to evacuate, the IC, or designee, needs to mobilize the lead shelter
+          organization (i.e. ARC) who will shelter the evacuees. The IC will need to inform shelter
+          officials on how many persons may be impacted by the evacuation order. The IC should also
+          identify if this scenario will require long-term or overnight housing. The shelters must be
+          located well clear of the hazard area especially if the situation on-scene were to worsen. Each of
+          these concerns will allow the shelter officials to determine which shelter(s) should be opened. "
+          children:
+            - element: label
+              text: "Were an adequate number of shelters/reception sites activated in a timely \n manner in order to care for the number of evacuees involved?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "The lead shelter organization typically has a number of sites available to open as necessary.
+          They should be anticipating when and why the current shelter will no longer support this
+          operation. For example, the shelter may have been too close to the evacuated area. A wind shift
+          may force the evacuation of the shelter itself. Also, the evacuation may go from a daytime event
+          to an overnight situation. This may have more people seeking beds than were originally
+          registered."
+          children:
+            - element: label
+              text: "Were procedures and/or guidelines in place in case the shelter's capacity was \n exceeded or its location had to be changed?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_2
+      type: text
+
+
+    #-------------Question 3-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "Initially, the shelter officials should let the IC know how long it will take before a shelter can
+          be opened. This may require responders to setup a temporary reception center where evacuees
+          can go for initial information and instructions until the shelter opens. Once open, the shelter
+          should have sufficient personnel available to meet and register evacuees. There should also be
+          support staff to feed and care for evacuee needs such as human services, local health department,
+          EMS, or mental health personnel."
+          children:
+            - element: label
+              text: "Were there sufficient staff and support agencies at the shelter to support \n operations?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_3
+      type: text
+
+    #-------------Question 4-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "Shelter officials should have communications with on-scene personnel and any off-site
+          agencies (EOC, medical facilities, and human service groups) who would support shelter
+          operations. The communications used may include phones at the site or via radio
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #11: 84
+          communications. If these communications are not adequate, the shelter manager should know
+          and demonstrate how to overcome each problem."
+          children:
+            - element: label
+              text: "Did the shelter have adequate communications with appropriate on-site and \n off-site support agencies?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_4
+      type: text
+
+    #-------------Question 5-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "The shelter security should not only prevent disruptions inside the shelter but it also needs to
+          control access from the outside. Evacuees should be directed to a controlled entrance for
+          registration and screening. Shelter managers may decide to use a separate exit to limit possible
+          exposures should someone be contaminated."
+          children:
+            - element: label
+              text: "Was security effectively managed at and around the shelter?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_5
+      type: text
+
+    #-------------Question 6-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "In the process of opening the shelter, the IC will need to provide the shelter officials some basic
+          information about the incident. Shelter officials should be briefed on what chemicals are
+          involved and what physical/health hazards they pose to the evacuees. The IC should provide
+          information on the likelihood that evacuees were exposed or contaminated by those chemicals.
+          Evacuees may have concerns about what hazards are involved. They may not have completely
+          understood or received this information when evacuated. The shelter should provide information
+          that dispels rumors or reassures evacuees about their safety. This should also include the safety
+          of their belongings, such as pets, cars and homes."
+          children:
+            - element: label
+              text: "Was information about the health and physical hazards posed by the released \n materials shared with shelter officials and evacuees arriving at the shelter?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_6
+      type: text
+
+    #-------------Question 7-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+
+        - element: info
+          text: "The local plan establishes how pre-coordination and collaboration will occur between IC and
+          the lead shelter organization on preventing shelter contamination and ensuring safe operations.
+          The shelter officials should understand how to determine if the evacuees are showing signs or
+          symptoms of being impacted by the materials. Evacuees can then be queried about their
+          exposure concerns as they register or this can be done before they enter the site, if able. Shelter
+          personnel should be instructed on how to safely handle those who are potentially contaminated.
+          Shelter management should contact ICP at any time they feel there is a contamination concern at
+          the shelter."
+          children:
+            - element: label
+              text: "Were risks posed by potential contamination adequately considered and \n addressed, if needed, to protect shelter operations?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_7
+      type: text
+
+    #-------------Question 8-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '8.        '
+
+        - element: info
+          text: "The IC/EOC should routinely update the shelter on the status of the response. In turn, the
+          shelter’s staff should update evacuees on the status of the release. Shelter personnel can also
+          query the IC if they are unsure about the current status or need information to address evacuee
+          concerns. This may include information on how long the evacuation will continue, what
+          precautions are needed when they return, or whether food/water supplies are safe to use. Shelter
+          officials may wish to establish a routine time interval to receive or request updates from the
+          scene/EOC."
+          children:
+            - element: label
+              text: "Was information about the incident status updated and shared \n with shelter officials and evacuees in the shelter?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_8
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_8
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_8
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_8
+      type: text
+
+    #-------------Question 9-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '9.        '
+
+        - element: info
+          text: "Screening is important so that other evacuees, personnel and the shelter are not impacted by
+          secondary contamination or exposure. Procedures should be implemented per lead shelter
+          organization protocol."
+          children:
+            - element: label
+              text: "Did shelter officials demonstrate the ability to screen incoming shelter \n clients/evacuees for potential chemical contamination or exposure?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_9
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_9
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_9
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_9
+      type: text
+
+    #-------------Question 10-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '10.        '
+
+        - element: info
+          text: "This documentation is not just about the registration information. The shelter manager
+          should also note hazard-specific information such as the initial precautions and hazards
+          information relayed by the IC, or designee."
+          children:
+            - element: label
+              text: "Were records kept to document resources expended and actions taken?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_10
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_10
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_10
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_10
+      type: text
+
+    #-------------Question 11-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '11.        '
+
+        - element: info
+          text: "These procedures should be addressed in local plans and procedures and/or guidelines. The
+          LEPC’s plan may also address these procedures and/or guidelines or may refer to a lead shelter
+          organization plan. Meanwhile, the county’s EOP typically has a chapter that addresses
+          Sheltering operations. Finally, the LEPC’s hazard analysis may be used to identify what shelters
+          would be used if there were a release from a fixed facility."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object11_11
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_11
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object11_11
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object11_explain_11
+      type: text
+
+    #----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object11_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

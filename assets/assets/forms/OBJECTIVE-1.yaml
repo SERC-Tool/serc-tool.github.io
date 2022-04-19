@@ -1,0 +1,503 @@
+form:
+  id: "Objective 1"
+  desc: "Objective 1 - NOTIFICATION OF RESPONSE/SUPPORT AGENCIES"
+  element: form
+  point-fields:
+    - object1_1
+    - object1_2
+    - object1_3
+    - object1_4
+    - object1_5
+    - object1_6
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 1
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "NOTIFICATION OF RESPONSE/SUPPORT AGENCIES: "
+          text:  "Demonstrate, or discuss in a
+  tabletop exercise, the ability to notify response and support agencies, and to mobilize
+  emergency personnel."
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW   (Notification)'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+#-----------Question 1----------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+        - element: info
+          text: "Facility and/or transporters are required to notify the local fire department and the LEPC’s
+              Emergency Coordinator (within 30 minutes) when they have an incident. This notification
+              provides specific information about the release and the associated hazards. Personnel receiving
+              the call must be ready to gather and forward this information to First Responders and key support
+              agencies. If someone calls in the accident other than the spiller, personnel need to be cognizant
+              of signs that a hazardous material may be involved. This information should be documented and
+              passed along to the initial responders. Awareness level training also teaches First Responders to
+              recognize when hazardous materials are released and to notify the appropriate agencies as per the
+              local plan. As information is obtained, it should be documented and relayed in accordance with
+              those procedures and/or guidelines. Along these lines, some plans or SOPs will utilize a special
+              form to gather and record information about a chemical incident. NOTE: Local procedures may
+              include, but are not limited to, County Haz Mat Plan, County Emergency Operations Plan,
+              Agency Standard Operating Guidelines."
+          children:
+            - element: label
+              text: "Were local procedures and/or guidelines followed to document the incident call and to
+                      determine if hazardous materials were involved?"
+
+        - element: row
+          children:
+          - element: field
+            name: object1_1
+            type: radio_checkbox
+            value: yes
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_1
+            type: radio_checkbox
+            value: no
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_1
+            type: radio_checkbox
+            value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object1_explain_1
+      type: text
+
+#-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "At a minimum, the local Fire Department and Law Enforcement agencies need to be notified.
+          Dispatch offices should have current emergency contact lists or plans that identify who to call
+          during a chemical spill. Also, the local plan may dictate that other agencies such as the local
+          emergency medical facility, EMA, ARC, etc. will be notified at the onset of a chemical release. "
+          children:
+            - element: label
+              text: "Were appropriate local personnel (i.e. HM Team, Fire, Police, Medical Facility, and EMA)
+        dispatched and/or notified of the hazardous materials emergency?"
+
+
+        - element: row
+          children:
+          - element: field
+            name: object1_2
+            type: radio_checkbox
+            value: yes
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_2
+            type: radio_checkbox
+            value: no
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_2
+            type: radio_checkbox
+            value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object1_explain_2
+      type: text
+
+
+#------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "The IC should ensure calls were made to contact agencies for response support or technical
+      assistance. The local community should have pre-planned what assistance they will call upon
+      from various state and federal agencies. For example, OEPA provides an On-Scene Coordinator
+      (OSC) to coordinate activities for hazardous substance releases that impact the environment.
+      Meanwhile, the SFM’s Arson Bureau may provide response guidance when explosive materials
+      have been released and Ohio Department of Health (ODH) can provide support when radioactive
+      materials are released. The PUCO’s Transportation Dept. can provide field liaisons for technical
+      and investigative assistance during transportation incidents. Federally, Chemtrec can be used to
+      gain information about transporters who have a hazardous materials release. Note that most of these
+      agencies can provide support during exercises if requested in advance. Consult the local plan, the
+      State EOP and/or the National Response Framework for more information on state/federal response
+      roles."
+          children:
+            - element: label
+              text: "Were appropriate state and federal agencies (i.e. OEPA, SFM, ODH, PUCO, NRC,
+  Chemtrec, and USCG) notified and requested to provide support for the hazardous materials emergency?"
+
+        - element: row
+          children:
+          - element: field
+            name: object1_3
+            type: radio_checkbox
+            value: yes
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_3
+            type: radio_checkbox
+            value: no
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_3
+            type: radio_checkbox
+            value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object1_explain_3
+      type: text
+
+
+#-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "The question of whether or not notifications are made in a timely manner may be somewhat
+          subjective. If a call was delayed, the Evaluator will need to distinguish if other activities took
+          precedence over the call or if the notification was simply overlooked. Also, the notification does
+          not stop after the first units are dispatched. As the initial size-up of the scene is completed, the
+          IC will need to advise dispatchers on the incident status and who to alert next."
+          children:
+            - element: label
+              text: "Were the notifications made in a timely manner?"
+
+        - element: row
+          children:
+          - element: field
+            name: object1_4
+            type: radio_checkbox
+            value: yes
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_4
+            type: radio_checkbox
+            value: no
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_4
+            type: radio_checkbox
+            value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object1_explain_4
+      type: text
+
+
+#-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "As personnel begin to complete an initial scene assessment, relevant portions of that
+          information should be relayed to dispatchers, to those being sent to the scene, and to the off-site
+          agencies supporting the response. This will give them some lead time to research the hazards by
+          consulting DOT guidebooks or obtaining technology-based information. It will also give certain
+          support agencies (i.e. medical facilities, shelter officials, EOC staff) enough lead time and
+          information to properly set up their support operations. The IC working with dispatcher should
+          ensure that when agencies are first alerted they are given preliminary information about the
+          incident."
+          children:
+            - element: label
+              text: "Was adequate information about the scene's assessment provided to the response and
+support agencies when notified?"
+
+        - element: row
+          children:
+          - element: field
+            name: object1_5
+            type: radio_checkbox
+            value: yes
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_5
+            type: radio_checkbox
+            value: no
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_5
+            type: radio_checkbox
+            value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object1_explain_5
+      type: text
+
+
+
+#---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "Procedures to document the initial call and make subsequent notifications are required to be
+          part of the LEPC plan. These procedures may also be spelled out in agency SOPs such as at the
+          9-1-1 center or separate dispatch locations. Separate procedures and/or guidelines should be
+          coordinated so they do not have multiple agencies making the same notification."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+          - element: field
+            name: object1_6
+            type: radio_checkbox
+            value: yes
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_6
+            type: radio_checkbox
+            value: no
+
+          - element: spacer
+            type: horizontal
+            space: 20
+
+          - element: field
+            name: object1_6
+            type: radio_checkbox
+            value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object1_explain_6
+      type: text
+
+#----------Recommendations
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object1_recommendations
+          type: text
+
+#-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30

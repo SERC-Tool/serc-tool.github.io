@@ -1,0 +1,698 @@
+form:
+  id: "Objective 9"
+  desc: "Objective 9 - EMERGENCY PUBLIC INFORMATION"
+  element: form
+  point-fields:
+    - object9_1
+    - object9_2
+    - object9_3
+    - object9_4
+    - object9_5
+    - object9_6
+    - object9_7
+    - object9_8
+    - object9_9
+  children:
+    - element: row
+      responsive: true
+      responsiveHeight: 300
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          underlined: true
+          marginRight: 20
+          marginTop: 10
+          marginBottom: 15
+          weight: bold
+          text: OBJECTIVE 9
+        - element: label
+          marginTop: 10
+          marginBottom: 15
+          bigText: "EMERGENCY PUBLIC INFORMATION: "
+          text: "Demonstrate, or discuss in a tabletop exercise,
+the ability to coordinate and disseminate accurate information about the incident to the public
+and the media in a timely manner."
+    - element: row
+      responsive: true
+      responsiveHeight: 100
+      alignment: spaceBetween
+      children:
+        - element: label
+          weight: bold
+          wrapper: none
+          text: 'POINTS OF REVIEW (Emergency Public Information):'
+
+        - element: row
+          children:
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'YES'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'NO'
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: label
+              wrapper: none
+              weight: bold
+              text: 'N/A'
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+
+      #-------------Question 1--------------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '1.        '
+        - element: info
+          text: "A coordinated release of information should be made to the public otherwise conflicting and
+          misleading information could be created. The IC may act as the PIO in small incidents and
+          accomplish the task from on-scene. In larger incidents, the IC should delegate this function. In
+          the larger events, a Joint Information Center (JIC) may be established with a lead PIO selected.
+          The Hazmat Plan, EOP, or even local SOPs should identify who will fulfill the PIO role. The
+          average responder should not answer media questions. Instead, they need to refer all media and
+          public questions to the PIO or IC. The PIO is authorized to draft and release information, but
+          should coordinate these actions with the IC. They may even need to gain approval with senior
+          elected officials when releasing sensitive information. Keep in mind, a PIO may not be the event
+          spokesperson, and therefore not be expected to speak publically."
+          children:
+            - element: label
+              text: "Was an individual clearly identified as the lead Public Information Officer (PIO) for this incident and thus was authorized to draft and release information to the public and media based on subject matter expertise provided?"
+
+        - element: row
+          children:
+            - element: field
+              name: object9_1
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_1
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_1
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object9_explain_1
+      type: text
+
+    #-------------Question 2-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '2.        '
+
+        - element: info
+          text: "The public and media generally do not understand what problems arise during a chemical
+          incident or how the problems are managed. The messages should avoid the use of technical
+          jargon or response lingo. It should reassure the public that the situation while hazardous is being
+          managed by response forces. The information should not speculate on future events or make
+          accusations about the cause of an incident."
+          children:
+            - element: label
+              text: "Was the content of public and media notifications appropriate to the emergency, response actions \n taken, and protective actions implemented?"
+        - element: row
+          children:
+            - element: field
+              name: object9_2
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_2
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_2
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object9_explain_2
+      type: text
+
+
+    #------------Question 3-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '3.        '
+
+        - element: info
+          text: "Responders need to identify what method can best be used to alert the public. Techniques
+          include the use of sirens, public address systems on vehicles, phone calls to special
+          groups/locations, or door-to-door notifications. Responders may rely on the social/electronic
+          media, television, cable, or radio broadcasts, or other technology to inform the public. Live
+          broadcasts are used as well, but this process is used more to provide updated information instead
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #10: 76
+          of the initial alert. All of these options should be pre-planned and thus allow responders to
+          quickly alert the public."
+          children:
+            - element: label
+              text: "Were pre-planned alert and notification methods effective?"
+
+        - element: row
+          children:
+            - element: field
+              name: object9_3
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_3
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_3
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object9_explain_3
+      type: text
+
+
+    #-----------Question 4--------------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '4.        '
+
+        - element: info
+          text: "The public information process must be conducted in a controlled manner. This requires
+          each response agency to relay media inquiries to the IC or PIO. Responders should not speculate
+          on the progress of response actions or the scene’s hazards. The PIO will needs to consult with
+          the IC or EOC as appropriate before it releases press information. The PIO may also need to
+          consult with the local Chief Elected Official to ensure the information reflects their concerns as
+          well. Also, response and support groups off-site should provide the CP/PIO information on
+          actions they are taking that affect the public. Those groups should also provide feedback to the
+          CP/PIO on what concerns they hear from the public. The goal is to ensure the process is
+          coordinated and the public receives accurate information on the protective actions."
+          children:
+            - element: label
+              text: "Was the public notification process effectively coordinated among involved organizations?"
+
+        - element: row
+          children:
+            - element: field
+              name: object9_4
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_4
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_4
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object9_explain_4
+      type: text
+
+
+    #-----------Question 5---------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '5.        '
+
+        - element: info
+          text: "The IC should have one person or group clearly designated to interact with the media and
+          release information to the public. Often initial notifications are made through a local agency’s
+          online platform or social media. The IC and PIO should work with responders to establish a
+          media staging area. This is to answer questions and ensure the media do not hamper response
+          efforts or endanger personnel. The PIO should make contacts with designated media outlets.
+          The EOC may work to see that media outlets outside of the area can obtain information about the
+          incident. Meanwhile, on-site interviews may also be used to alert and brief the media. The
+          location should provide photo opportunities and permit routine access to key response personnel."
+          children:
+            - element: label
+              text: "Once created, were media notifications made in a timely manner?"
+
+        - element: row
+          children:
+            - element: field
+              name: object9_5
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_5
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_5
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object9_explain_5
+      type: text
+
+
+
+    #---------------Question 6-----------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '6.        '
+
+        - element: info
+          text: "As the situation changes, the command staff and/or Executive Group in coordination with the
+          PIO should evaluate the need to update the information provided to the media and general public.
+          The process requires the PIO to be actively involved within the command structure and/or
+          Executive Group to exchange and confirm information about the release. Procedures should be
+          in-place to assess the released information and work with media to correct misinformation. The
+          PIO should establish a method to watch/listen to the media releases to catch and correct
+          misinformation. The PIO may need to have an off-site group (who has access to TVs and radios)
+          monitor the local media stations. This may be assigned to an EOC, a dispatch office, a response
+          agency’s main office or the JIC (if activated). These updates should reassure the public that the
+          situation is being managed, dispel rumors, and provide additional information. This may include
+          information about shelter status, health concerns, or protective actions. The PIO or spokesperson
+          should also meet routinely with media personnel on-scene and update them on the current status
+          of the scene."
+          children:
+            - element: label
+              text: "Did the PIO remain aware of the emergency situation's status and develop appropriate follow-up messages based on incident changes?"
+        - element: row
+          children:
+            - element: field
+              name: object9_6
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_6
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_6
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object9_explain_6
+      type: text
+
+
+    #-----------Question 7----------------
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '7.        '
+        - element: info
+          text: "Traditional media and social media monitoring, as well as rumor control, are important
+          aspects of emergency public information. It is media’s business to cover the story, but the
+          information they release may not be entirely accurate or may speculate on actions taken.
+          Messages may be misinterpreted or altered and thus change the intent of the information.
+          Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #10: 77
+          Generally, it should be demonstrated how media platforms will be monitored and what the
+          response would be if messaging is inaccurate or rumors present. The PIO should address
+          misinformation appropriately."
+          children:
+            - element: label
+              text: "Were procedures and/or guidelines in-place to monitor and respond to rumors raised during the emergency?"
+        - element: row
+          children:
+            - element: field
+              name: object9_7
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_7
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_7
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object9_explain_7
+      type: text
+
+    #-------------Question 8-----------------
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '8.        '
+
+        - element: info
+          text: "TThroughout the incident, the command system should document the actions taken to initially
+          alert the public, generate follow-up information, and to work with those media assets on-site and
+          off-site. The designated PIO should record when and how information was released to the
+          public. This process will assist in rumor control, supports the critique, and preserves
+          documentation for posterity."
+          children:
+            - element: label
+              text: "Were records kept to document messages issued, briefings made, and actions taken?"
+        - element: row
+          children:
+            - element: field
+              name: object9_8
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_8
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_8
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object9_explain_8
+      type: text
+
+
+    #------------Question 9-------------------
+
+
+    - element: spacer
+      type: vertical
+      space: 20
+
+    - element: row
+      responsive: true
+      responsiveHeight: 200
+      alignment: start
+      children:
+        - element: label
+          wrapper: none
+          text: '9.        '
+
+        - element: info
+          text: "As noted before, the emergency public information process should be pre-planned. The
+          LEPC plan must contain procedures for the timely and effective use of communications to the
+          general public. The all-hazard EOP typically has an Annex dedicated to this topic. Plus, most
+          ICS training teaches responders how to appoint and use a PIO as part of the command structure.
+          Therefore, this process should be defined in local SOPs."
+          children:
+            - element: label
+              text: "Were the actions taken based on existing plans and/or operating procedures?"
+
+        - element: row
+          children:
+            - element: field
+              name: object9_9
+              type: radio_checkbox
+              value: yes
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_9
+              type: radio_checkbox
+              value: no
+
+            - element: spacer
+              type: horizontal
+              space: 20
+
+            - element: field
+              name: object9_9
+              type: radio_checkbox
+              value: n/a
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Explain:'
+
+    - element: field
+      name: object9_explain_9
+      type: text
+
+    #----------Recommendations-------------------
+
+    - element: spacer
+      type: vertical
+      space: 50
+
+    - element: row
+      alignment: start
+      wrapper: none
+      children:
+        - element: label
+          text: "Recommendations:"
+
+    - element: row
+      alignment: start
+      children:
+        - element: field
+          label: "Explain:"
+          name: object9_recommendations
+          type: text
+
+    #-------------Bottom of Page------------------
+    - element: spacer
+      type: vertical
+      space: 30
