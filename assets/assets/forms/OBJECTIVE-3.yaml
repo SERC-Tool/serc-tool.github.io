@@ -48,8 +48,6 @@ emergency response activities."
           text: 'POINTS OF REVIEW   (Incident Command)'
 
         - element: row
-          responsive: true
-          wideOnly: true
           children:
             - element: label
               wrapper: none

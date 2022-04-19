@@ -44,8 +44,6 @@ posed to the public."
           text: 'POINTS OF REVIEW (Population Protective Actions):'
 
         - element: row
-          responsive: true
-          wideOnly: true
           children:
             - element: label
               wrapper: none

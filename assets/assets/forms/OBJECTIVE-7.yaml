@@ -48,8 +48,6 @@ ability to protect emergency responder health and safety."
           text: 'POINTS OF REVIEW (Response Personnel Safety):'
 
         - element: row
-          responsive: true
-          wideOnly: true
           children:
             - element: label
               wrapper: none

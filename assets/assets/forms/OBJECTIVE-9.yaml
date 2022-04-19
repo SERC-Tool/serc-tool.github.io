@@ -44,8 +44,6 @@ and the media in a timely manner."
           text: 'POINTS OF REVIEW (Emergency Public Information):'
 
         - element: row
-          responsive: true
-          wideOnly: true
           children:
             - element: label
               wrapper: none
