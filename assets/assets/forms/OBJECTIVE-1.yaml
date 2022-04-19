@@ -41,6 +41,8 @@ form:
           text: 'POINTS OF REVIEW   (Notification)'
 
         - element: row
+          responsive: true
+          wideOnly: true
           children:
             - element: label
               wrapper: none
@@ -70,10 +72,9 @@ form:
       space: 10
 
 #-----------Question 1----------------
-
     - element: row
       responsive: true
-      responsiveHeight: 200
+      responsiveHeight: 250
       alignment: start
       children:
         - element: label
@@ -145,7 +146,7 @@ form:
 
     - element: row
       responsive: true
-      responsiveHeight: 200
+      responsiveHeight: 250
       alignment: start
       children:
         - element: label
@@ -212,7 +213,7 @@ form:
 
     - element: row
       responsive: true
-      responsiveHeight: 200
+      responsiveHeight: 250
       alignment: start
       children:
         - element: label
@@ -285,7 +286,7 @@ form:
 
     - element: row
       responsive: true
-      responsiveHeight: 200
+      responsiveHeight: 250
       alignment: start
       children:
         - element: label
@@ -350,7 +351,7 @@ form:
 
     - element: row
       responsive: true
-      responsiveHeight: 200
+      responsiveHeight: 250
       alignment: start
       children:
         - element: label
@@ -421,7 +422,7 @@ support agencies when notified?"
 
     - element: row
       responsive: true
-      responsiveHeight: 200
+      responsiveHeight: 250
       alignment: start
       children:
         - element: label

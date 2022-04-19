@@ -42,6 +42,8 @@ form:
           text: 'POINTS OF REVIEW (Traffic and Access Control):'
 
         - element: row
+          responsive: true
+          wideOnly: true
           children:
             - element: label
               wrapper: none

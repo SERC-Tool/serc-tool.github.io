@@ -47,6 +47,8 @@ involved in a hazardous materials incident."
           text: 'POINTS OF REVIEW  (Emergency Medical Services)'
 
         - element: row
+          responsive: true
+          wideOnly: true
           children:
             - element: label
               wrapper: none
