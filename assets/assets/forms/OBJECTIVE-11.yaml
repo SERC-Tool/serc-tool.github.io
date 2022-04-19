@@ -47,6 +47,8 @@ action and sheltering needs of evacuees."
           text: 'POINTS OF REVIEW   (Shelter Management)'
 
         - element: row
+          responsive: true
+          wideOnly: true
           children:
             - element: label
               wrapper: none

@@ -43,6 +43,8 @@ organizations, and personnel."
           text: 'POINTS OF REVIEW (Notification)'
 
         - element: row
+          responsive: true
+          wideOnly: true
           children:
             - element: label
               wrapper: none
