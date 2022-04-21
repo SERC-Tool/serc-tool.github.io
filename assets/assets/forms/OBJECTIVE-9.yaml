@@ -40,7 +40,6 @@ and the media in a timely manner."
       children:
         - element: label
           weight: bold
-          wrapper: none
           text: 'POINTS OF REVIEW (Emergency Public Information):'
 
         - element: row

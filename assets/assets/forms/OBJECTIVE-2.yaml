@@ -42,7 +42,6 @@ and physical hazards."
       children:
         - element: label
           weight: bold
-          wrapper: none
           text: 'POINTS OF REVIEW   (Incident Assessment)'
 
         - element: row

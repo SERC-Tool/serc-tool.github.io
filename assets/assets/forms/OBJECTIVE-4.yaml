@@ -41,7 +41,6 @@ Operation Center (EOC) to coordinate and support emergency response activities."
       children:
         - element: label
           weight: bold
-          wrapper: none
           text: 'POINTS OF REVIEW (Emergency Operation Center)'
 
         - element: row

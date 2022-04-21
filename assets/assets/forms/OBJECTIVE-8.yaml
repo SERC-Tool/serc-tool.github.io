@@ -40,7 +40,6 @@ posed to the public."
       children:
         - element: label
           weight: bold
-          wrapper: none
           text: 'POINTS OF REVIEW (Population Protective Actions):'
 
         - element: row

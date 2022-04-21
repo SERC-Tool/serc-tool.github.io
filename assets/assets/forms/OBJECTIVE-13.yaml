@@ -38,7 +38,6 @@ materials incident."
       children:
         - element: label
           weight: bold
-          wrapper: none
           text: 'POINTS OF REVIEW   (Hospital Services)'
 
         - element: row

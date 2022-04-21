@@ -39,7 +39,6 @@ organizations, and personnel."
       children:
         - element: label
           weight: bold
-          wrapper: none
           text: 'POINTS OF REVIEW (Notification)'
 
         - element: row
