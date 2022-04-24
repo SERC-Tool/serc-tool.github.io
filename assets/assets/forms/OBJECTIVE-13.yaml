@@ -95,7 +95,7 @@ materials incident."
           facility should also inform EMS or the IC when no more victims can be accepted at the site. "
           children:
             - element: label
-              text: "Were appropriate actions taken to coordinate patient arrival with the arriving \n emergency medical squads, to include equipping personnel to safely handle \n arriving patients?"
+              text: "Were appropriate actions taken to coordinate patient arrival with the arriving emergency medical squads, to include equipping personnel to safely handle arriving patients?"
 
         - element: row
           children:
@@ -163,7 +163,7 @@ materials incident."
           treatment."
           children:
             - element: label
-              text: "Were arriving patients and EMS personnel safely received, handled, and treated \n based on injuries and contamination levels?"
+              text: "Were arriving patients and EMS personnel safely received, handled, and treated based on injuries and contamination levels?"
 
 
         - element: row
@@ -234,7 +234,7 @@ materials incident."
           groups. "
           children:
             - element: label
-              text: "Were security measures in-place to control access to the receiving, treatment, or \n other potentially contaminated areas?"
+              text: "Were security measures in-place to control access to the receiving, treatment, or other potentially contaminated areas?"
 
         - element: row
           children:
@@ -302,7 +302,7 @@ materials incident."
           receiving area and the rest of the facility."
           children:
             - element: label
-              text: "Was the medical facility able to communicate with the Incident Command and/or \n EMS personnel?"
+              text: "Was the medical facility able to communicate with the Incident Command and/or EMS personnel?"
 
         - element: row
           children:
@@ -367,7 +367,7 @@ materials incident."
           before it returns to normal operations."
           children:
             - element: label
-              text: "Were procedures and/or guidelines followed to safely contain and dispose of \n contaminated materials?"
+              text: "Were procedures followed to safely contain and dispose of contaminated materials?"
 
         - element: row
           children:

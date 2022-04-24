@@ -96,7 +96,7 @@ action and sheltering needs of evacuees."
           these concerns will allow the shelter officials to determine which shelter(s) should be opened. "
           children:
             - element: label
-              text: "Were an adequate number of shelters/reception sites activated in a timely \n manner in order to care for the number of evacuees involved?"
+              text: "Were an adequate number of shelters/reception sites activated in a timely manner in order to care for the number of evacuees involved?"
 
         - element: row
           children:
@@ -161,7 +161,7 @@ action and sheltering needs of evacuees."
           registered."
           children:
             - element: label
-              text: "Were procedures and/or guidelines in place in case the shelter's capacity was \n exceeded or its location had to be changed?"
+              text: "Were procedures in place in case the shelter's capacity was exceeded or its location had to be changed?"
 
         - element: row
           children:
@@ -227,7 +227,7 @@ action and sheltering needs of evacuees."
           EMS, or mental health personnel."
           children:
             - element: label
-              text: "Were there sufficient staff and support agencies at the shelter to support \n operations?"
+              text: "Were there sufficient staff and support agencies at the shelter to support operations?"
 
         - element: row
           children:
@@ -292,7 +292,7 @@ action and sheltering needs of evacuees."
           and demonstrate how to overcome each problem."
           children:
             - element: label
-              text: "Did the shelter have adequate communications with appropriate on-site and \n off-site support agencies?"
+              text: "Did the shelter have adequate communications with appropriate on-site and off-site support agencies?"
 
         - element: row
           children:
@@ -422,7 +422,7 @@ action and sheltering needs of evacuees."
           of their belongings, such as pets, cars and homes."
           children:
             - element: label
-              text: "Was information about the health and physical hazards posed by the released \n materials shared with shelter officials and evacuees arriving at the shelter?"
+              text: "Was information about the health and physical hazards posed by the released material(s) shared with shelter officials and evacuees arriving at the shelter?"
 
         - element: row
           children:
@@ -489,7 +489,7 @@ action and sheltering needs of evacuees."
           the shelter."
           children:
             - element: label
-              text: "Were risks posed by potential contamination adequately considered and \n addressed, if needed, to protect shelter operations?"
+              text: "Were risks posed by potential contamination adequately considered and  addressed, if needed, to protect shelter operations?"
 
         - element: row
           children:
@@ -555,7 +555,7 @@ action and sheltering needs of evacuees."
           scene/EOC."
           children:
             - element: label
-              text: "Was information about the incident status updated and shared \n with shelter officials and evacuees in the shelter?"
+              text: "Was information about the incident status updated and shared with shelter officials and evacuees in the shelter?"
 
         - element: row
           children:
@@ -617,7 +617,7 @@ action and sheltering needs of evacuees."
           organization protocol."
           children:
             - element: label
-              text: "Did shelter officials demonstrate the ability to screen incoming shelter \n clients/evacuees for potential chemical contamination or exposure?"
+              text: "Did shelter officials demonstrate the ability to screen incoming shelter clients/evacuees for potential chemical contamination or exposure?"
 
         - element: row
           children:

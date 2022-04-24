@@ -13,7 +13,6 @@ form:
     - object12_8
     - object12_9
     - object12_10
-    - object12_11
   children:
     - element: row
       responsive: true
@@ -27,7 +26,7 @@ form:
           marginTop: 10
           marginBottom: 15
           weight: bold
-          text: OBJECTIVE 1
+          text: OBJECTIVE 12
         - element: label
           marginTop: 10
           marginBottom: 15
@@ -229,7 +228,7 @@ involved in a hazardous materials incident."
           from the local medical facility and/or health department."
           children:
             - element: label
-              text: "Were the health hazards and the secondary contamination risks posed to patients \n identified by responders?"
+              text: "Were the health hazards and the secondary contamination risks posed to patients identified by responders?"
 
         - element: row
           children:
@@ -298,7 +297,7 @@ involved in a hazardous materials incident."
           need to secure replacement supplies."
           children:
             - element: label
-              text: "Were adequate medical equipment and supplies identified and/or obtained to \n support EMS operations?"
+              text: "Were adequate medical equipment and supplies identified and/or obtained to support EMS operations?"
 
         - element: row
           children:
@@ -362,7 +361,7 @@ involved in a hazardous materials incident."
           have received a gross decontamination."
           children:
             - element: label
-              text: "Were existing/established medical triage procedures properly implemented to  \n address the contamination risk, if present?"
+              text: "Were existing/established medical triage procedures properly implemented to address the contamination risk, if present?"
 
         - element: row
           children:
@@ -434,7 +433,7 @@ involved in a hazardous materials incident."
           when determining who will be airlifted."
           children:
             - element: label
-              text: "Were patients decontaminated before being treated and appropriate steps taken \n to prevent exposure/secondary contamination?"
+              text: "Were patients decontaminated before being treated and appropriate steps taken to prevent exposure/secondary contamination?"
 
         - element: row
           children:
@@ -502,7 +501,7 @@ involved in a hazardous materials incident."
           exposure, health symptoms, decontamination needs, etc. "
           children:
             - element: label
-              text: "Was the Medical Facility notified prior to patient arrival that a hazardous material \n incident had occurred to include information on the respective health hazards?"
+              text: "Was the Medical Facility notified prior to patient arrival that a hazardous material incident had occurred to include information on the respective health hazards?"
 
         - element: row
           children:
@@ -537,10 +536,38 @@ involved in a hazardous materials incident."
       alignment: start
       children:
         - element: label
+          text: 'Time of Notification:'
+
+    - element: field
+      name: object12_explain_7_1
+      type: text
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
+          text: 'Identify by Name Who Made Contact:'
+
+    - element: field
+      name: object12_explain_7_2
+      type: text
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
           text: 'Explain:'
 
     - element: field
-      name: object12_explain_7
+      name: object12_explain_7_3
       type: text
 
     #-------------Question 8-----------------
@@ -573,7 +600,7 @@ involved in a hazardous materials incident."
           on-scene personnel request it."
           children:
             - element: label
-              text: "Did personnel coordinate with medical facilities to receive patients to include \n providing information on decontamination and potential walk-ins?"
+              text: "Were emergency medical personnel and equipment screened for contamination before returning them to service or were arrangements made to secure other assets?"
 
         - element: row
           children:
@@ -630,15 +657,15 @@ involved in a hazardous materials incident."
           text: '9.        '
 
         - element: info
-          text: "Upon arrival, the EMS personnel should be checked for signs of exposure and possible
-          contamination. EMS personnel should request the medical facility to quickly screen them for
-          symptoms of exposure before they return to service. If symptoms are present, EMS personnel
-          should be held for treatment and observation. In this case, they need to advise the IC or the on-scene EMS Officer that they are out of service. The command system will need to take steps to
-          secure additional assets."
+          text: "To assist in coordinating EMS operations, the EMS liaison should document various items.
+          NFPA’s 473 standard notes that this information should include product information, extent and
+          duration of exposures, actions taken to limit contamination, treatment rendered, and patient
+          disposition. Personnel should also note what resources were contaminated and expended. This
+          documentation should help to prioritize medical needs, manage safety concerns, recover costs
+          afterwards, critique operations, and identify training needs."
           children:
             - element: label
-              text: "Were emergency medical personnel and equipment screened for contamination \n before returning them to service or were arrangements made to secure other assets?"
-
+              text: "Were records kept to document resources expended and response actions taken?"
         - element: row
           children:
             - element: field
@@ -694,15 +721,11 @@ involved in a hazardous materials incident."
           text: '10.        '
 
         - element: info
-          text: "To assist in coordinating EMS operations, the EMS liaison should document various items.
-          NFPA’s 473 standard notes that this information should include product information, extent and
-          duration of exposures, actions taken to limit contamination, treatment rendered, and patient
-          disposition. Personnel should also note what resources were contaminated and expended. This
-          documentation should help to prioritize medical needs, manage safety concerns, recover costs
-          afterwards, critique operations, and identify training needs."
+          text: "Overall, these actions are required to be contained in the LEPC plan. These procedures
+          and/or guidelines may also be outlined in department SOPs."
           children:
             - element: label
-              text: "Were records kept to document resources expended and response actions taken?"
+              text: "Were the actions taken based on existing plans and/or operating procedures"
 
         - element: row
           children:
@@ -741,66 +764,6 @@ involved in a hazardous materials incident."
 
     - element: field
       name: object12_explain_10
-      type: text
-
-    #-------------Question 11-----------------
-
-    - element: spacer
-      type: vertical
-      space: 20
-
-    - element: row
-      responsive: true
-      responsiveHeight: 200
-      alignment: start
-      children:
-        - element: label
-          wrapper: none
-          text: '11.        '
-
-        - element: info
-          text: "Overall, these actions are required to be contained in the LEPC plan. These procedures and/or guidelines may also be outlined in department SOPs."
-          children:
-            - element: label
-              text: "Were proper procedures demonstrated by EMS personnel to safely approach the scene?"
-
-        - element: row
-          children:
-            - element: field
-              name: object12_11
-              type: radio_checkbox
-              value: yes
-
-            - element: spacer
-              type: horizontal
-              space: 20
-
-            - element: field
-              name: object12_11
-              type: radio_checkbox
-              value: no
-
-            - element: spacer
-              type: horizontal
-              space: 20
-
-            - element: field
-              name: object12_11
-              type: radio_checkbox
-              value: n/a
-
-    - element: spacer
-      type: vertical
-      space: 10
-
-    - element: row
-      alignment: start
-      children:
-        - element: label
-          text: 'Explain:'
-
-    - element: field
-      name: object12_explain_11
       type: text
 
     #----------Recommendations

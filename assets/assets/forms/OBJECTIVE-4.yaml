@@ -95,7 +95,7 @@ Operation Center (EOC) to coordinate and support emergency response activities."
           voluntary organizations, and elected officials."
           children:
             - element: label
-              text: "Were planned procedures and/or guidelines followed for activating the EOC?"
+              text: "Were planned procedures followed for activating the EOC?"
 
         - element: row
           children:
@@ -193,7 +193,7 @@ Operation Center (EOC) to coordinate and support emergency response activities."
         value: primary
       - element: label
         wrapper: none
-        text: "Primary"
+        text: " Primary   /"
       - element: spacer
         type: horizontal
         space: 20
@@ -203,7 +203,7 @@ Operation Center (EOC) to coordinate and support emergency response activities."
         value: alternate
       - element: label
         wrapper: none
-        text: "Alternate"
+        text: " Alternate"
 
     - element: spacer
       type: vertical
@@ -347,12 +347,25 @@ Operation Center (EOC) to coordinate and support emergency response activities."
       alignment: start
       children:
         - element: label
+          text: 'Time Established:'
+
+    - element: field
+      name: object4_explain_4_2
+      type: text
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
           text: 'Explain:'
 
     - element: field
-      name: object4_explain_4
+      name: object4_explain_4_1
       type: text
-
 
     #-----------Question 5---------------
 
@@ -379,7 +392,7 @@ Operation Center (EOC) to coordinate and support emergency response activities."
           considered."
           children:
             - element: label
-              text: "Was decision-making and information sharing effectively coordinated between the EOC and the \n incident commander(s)?"
+              text: "Was decision-making and information sharing effectively coordinated between the EOC and the Incident Commander(s)?"
 
         - element: row
           children:
@@ -585,7 +598,7 @@ Operation Center (EOC) to coordinate and support emergency response activities."
           critique EOC operations and in turn improve its operational procedures."
           children:
             - element: label
-              text: "Were records kept to document the actions taken within the EOC?"
+              text: "Were records kept to document the actions taken?"
 
         - element: row
           children:

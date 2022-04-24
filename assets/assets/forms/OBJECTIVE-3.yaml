@@ -132,7 +132,7 @@ emergency response activities."
       alignment: start
       children:
         - element: label
-          text: 'Explain:'
+          text: 'Identify ICS positions used:'
 
     - element: field
       name: object3_explain_1
@@ -199,7 +199,7 @@ emergency response activities."
       alignment: start
       children:
         - element: label
-          text: 'Explain:'
+          text: 'Identify by Name and Agency:'
 
     - element: field
       name: object3_explain_2
@@ -299,7 +299,7 @@ emergency response activities."
           communications, and account for resources on-site."
           children:
             - element: label
-              text: "Was the Command Post staffed and equipped to support emergency operations?"
+              text: "Was the Incident Command Post staffed and equipped to support emergency operations?"
 
         - element: row
           children:
@@ -365,7 +365,7 @@ emergency response activities."
           response priorities or modify protective actions off-site."
           children:
             - element: label
-              text: "Was decision-making and information sharing coordinated with on-site personnel?"
+              text: "Was decision-making and information-sharing coordinated with on-site personnel?"
 
         - element: row
           children:
@@ -435,7 +435,7 @@ emergency response activities."
           delegate that task to specific liaisons or command positions."
           children:
             - element: label
-              text: "Was decision-making and information sharing coordinated with off-site agencies?"
+              text: "Was decision-making and information-sharing coordinated with off-site agencies?"
 
         - element: row
           children:
@@ -501,7 +501,7 @@ emergency response activities."
           the IC should be able to clearly explain the reasoning as to why the EOC was not needed."
           children:
             - element: label
-              text: "Did the command staff consider the need to activate an Emergency Operations Center?"
+              text: "Did the Command Staff consider the need to activate an Emergency Operations Center?"
 
         - element: row
           children:

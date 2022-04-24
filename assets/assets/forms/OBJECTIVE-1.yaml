@@ -368,8 +368,8 @@ form:
           incident."
           children:
             - element: label
-              text: "Was adequate information about the scene's assessment provided to the response and
-support agencies when notified?"
+              text: "Was adequate information about the scene assessment provided to response and
+support agencies?"
 
         - element: row
           children:

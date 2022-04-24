@@ -96,7 +96,7 @@ ability to protect emergency responder health and safety."
           taken until the hazards are assessed."
           children:
             - element: label
-              text: "Were proper procedures followed so the arrival at the scene did not expose or contaminate \n personnel to the on-scene hazards?"
+              text: "Were proper procedures followed so the arrival at the scene did not expose or contaminate personnel to the on-scene hazards?"
 
         - element: row
           children:
@@ -232,7 +232,7 @@ ability to protect emergency responder health and safety."
           are decontaminated as they re-enter the cold zone."
           children:
             - element: label
-              text: "Were hazard zones clearly defined and effectively controlled to ensure no one entered a restricted \n zone without the proper personal protective equipment (PPE)?"
+              text: "Were hazard zones clearly defined and effectively controlled to ensure no one entered a restricted zone without the proper personal protective equipment (PPE)?"
 
         - element: row
           children:
@@ -303,8 +303,7 @@ ability to protect emergency responder health and safety."
           perform more technical offensive actions."
           children:
             - element: label
-              text: "Was an appropriate level of PPE chosen and issued to personnel who were properly trained Ohio \n Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #7: 66
-to use the equipment?"
+              text: "Was an appropriate level of PPE chosen and issued to personnel who were properly trained to use the equipment?"
 
         - element: row
           children:
@@ -372,7 +371,7 @@ to use the equipment?"
           personnel should inform the IC as to what tasks they are not equipped or trained to accomplish."
           children:
             - element: label
-              text: "Were personnel, to include arriving mutual aid resources, adequately briefed on the hazards, PPE \n requirements, and expected response actions?"
+              text: "Were personnel, to include arriving mutual aid resources, adequately briefed on the hazards, PPE requirements, and expected response actions?"
 
         - element: row
           children:
@@ -445,7 +444,7 @@ to use the equipment?"
           children:
             - element: label
               text: "Were proper methods followed to safely control and stabilize the released
- materials (i.e. use a team \n approach, use spark-free tools, minimize contact, etc.)?"
+ materials (i.e. use a team approach, use spark-free tools, minimize contact, etc.)?"
 
         - element: row
           children:
@@ -511,7 +510,7 @@ to use the equipment?"
           at a Hazmat scene."
           children:
             - element: label
-              text: "Was adequate medical monitoring provided for hot and warm zone personnel to include providing \n rehabilitation and debriefing on the hazards?"
+              text: "Was adequate medical monitoring provided for hot and warm zone personnel to include providing rehabilitation and debriefing on the hazards?"
 
         - element: row
           children:
@@ -705,7 +704,7 @@ to use the equipment?"
           should also be briefed or understood."
           children:
             - element: label
-              text: "Was an effective means of communications utilized between the IC, Safety Officer, decontamination \n personnel, and entry personnel to safely conduct operations?"
+              text: "Was an effective means of communications utilized between the IC, Safety Officer, decontamination personnel, and entry personnel to safely conduct operations?"
 
         - element: row
           children:

@@ -162,7 +162,7 @@ posed to the public."
           requires a long-term isolation and subsequent restoration of the area."
           children:
             - element: label
-              text: "Was an appropriate protective action decision made based on the risks posed and the \n area to be impacted?"
+              text: "Was an appropriate protective action decision made based on the risks posed and the area to be impacted?"
         - element: row
           children:
             - element: field
@@ -232,7 +232,7 @@ posed to the public."
           activated EOC and thus allow the IC to stay focused on containing the release."
           children:
             - element: label
-              text: "Were protective actions implemented in a timely manner and effectively coordinated \n among organizations?"
+              text: "Were protective actions implemented in a timely manner and effectively coordinated among organizations?"
 
         - element: row
           children:
@@ -295,7 +295,7 @@ posed to the public."
           include using local media assets to broadcast warnings."
           children:
             - element: label
-              text: " Were media alert/notifications implemented in a timely manner?"
+              text: "Were media alert/notifications implemented in a timely manner?"
 
         - element: row
           children:
@@ -433,7 +433,7 @@ posed to the public."
           contact like the Amish/Mennonites."
           children:
             - element: label
-              text: "Did response personnel take appropriate steps to address access and functional needs \n groups and special populations?"
+              text: "Did response personnel take appropriate steps to address access and functional needs groups and special populations?"
 
         - element: row
           children:
@@ -495,7 +495,7 @@ posed to the public."
           agencies implementing the protective actions."
           children:
             - element: label
-              text: "Were proper methods followed to assess/monitor hazards to the general public and \n environment, and were the protective actions updated as required by changes?"
+              text: "Were proper methods followed to assess/monitor hazards to the general public and environment, and were the protective actions updated as required by changes?"
 
         - element: row
           children:
@@ -560,7 +560,7 @@ posed to the public."
           going back door-to-door, closing shelters, briefing the media, etc."
           children:
             - element: label
-              text: "Was the process to return evacuees to their homes effectively coordinated between traffic \n controllers, shelter managers, and the command system?"
+              text: "Was the process to return evacuees to their homes effectively coordinated between traffic controllers, shelter managers, and the command system?"
         - element: row
           children:
             - element: field
@@ -626,7 +626,7 @@ posed to the public."
           improve procedures and/or guidelines, or to resolve a liability issue."
           children:
             - element: label
-              text: "Were records kept of protective action decisions made, instructions issued, and actions \n Ohio Hazardous Materials Exercise and Evaluation Manual Tab A- Exercise Objective #8: \n 73 implemented?"
+              text: "Were records kept of protective action decisions made, instructions issued, and actions implemented?"
 
         - element: row
           children:

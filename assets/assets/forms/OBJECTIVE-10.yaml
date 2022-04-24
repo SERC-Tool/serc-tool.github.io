@@ -176,7 +176,7 @@ form:
           with response operations."
           children:
             - element: label
-              text: "Was site security effectively implemented at and around the immediate scene and \n only authorized personnel allowed access to the scene?"
+              text: "Was site security effectively implemented at and around the immediate scene and only authorized personnel allowed access to the scene?"
         - element: row
           children:
             - element: field
@@ -387,7 +387,7 @@ form:
           children:
             - element: label
               text: "Did the IC and traffic controllers evaluate the effectiveness of traffic control measures
-               throughout the incident and adjust them when necessitated by the incident response?"
+               throughout the incident and adjust them when necessary?"
 
         - element: row
           children:
@@ -455,7 +455,7 @@ form:
           demonstrated before the drill ends, and not just simply stated that it was done."
           children:
             - element: label
-              text: "Was the decision to terminate traffic control measures coordinated among responders, \n support organizations, and to the public?"
+              text: "Was the decision to terminate traffic control measures coordinated among responders, support organizations, and to the public?"
 
         - element: row
           children:
@@ -498,6 +498,9 @@ form:
 
 
     #-----------Question 7----------------
+    - element: spacer
+      type: vertical
+      space: 20
 
     - element: row
       responsive: true

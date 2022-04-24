@@ -161,8 +161,7 @@ organizations, and personnel."
           timely manner and should go to all involved groups."
           children:
             - element: label
-              text: "Were communications effectively utilized to gather and disseminate information about the \n incident?"
-
+              text: "Were communications effectively utilized to gather and disseminate information about the incident?"
 
         - element: row
           children:

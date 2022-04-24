@@ -132,10 +132,24 @@ and the media in a timely manner."
       alignment: start
       children:
         - element: label
+          text: 'Identify by Name:'
+
+    - element: field
+      name: object9_explain_1_1
+      type: text
+
+    - element: spacer
+      type: vertical
+      space: 10
+
+    - element: row
+      alignment: start
+      children:
+        - element: label
           text: 'Explain:'
 
     - element: field
-      name: object9_explain_1
+      name: object9_explain_1_2
       type: text
 
     #-------------Question 2-----------------
@@ -161,7 +175,7 @@ and the media in a timely manner."
           accusations about the cause of an incident."
           children:
             - element: label
-              text: "Was the content of public and media notifications appropriate to the emergency, response actions \n taken, and protective actions implemented?"
+              text: "Was the content of public and media notifications appropriate to the emergency, response actions \n taken, and protective actions taken?"
         - element: row
           children:
             - element: field
